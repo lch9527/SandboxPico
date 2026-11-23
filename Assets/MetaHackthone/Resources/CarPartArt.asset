@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0891689a77b4fe54c8fc937bcd60ce03, type: 3}
+  m_Name: CarPartArt
+  m_EditorClassIdentifier: PhysicalAssembly.Runtime::PhysicalAssembly.CarPartArtLibrary
+  Enabled: 1
+  Visuals:
+  - Kind: 13
+    Body: tire
+    Parent: 
+    Lods:
+    - {fileID: 3526155115669783650, guid: d7cb05b48f5082443b660ce26e7cc9c0, type: 3}
+    - {fileID: -3085429255746304847, guid: d7cb05b48f5082443b660ce26e7cc9c0, type: 3}
+    - {fileID: -2350730568528556759, guid: d7cb05b48f5082443b660ce26e7cc9c0, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: 53c944e4d27693a4e92b33a6b4bd7853, type: 2}
+  - Kind: 13
+    Body: hub
+    Parent: 
+    Lods:
+    - {fileID: -5811035349245298136, guid: 4ca021ab6cb309947ae907e1aca93c75, type: 3}
+    - {fileID: -6008488308364890147, guid: 4ca021ab6cb309947ae907e1aca93c75, type: 3}
+    - {fileID: 7640040034086438093, guid: 4ca021ab6cb309947ae907e1aca93c75, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: cfac7d37c37cfb54c8d42dfaa11752bf, type: 2}
+  - Kind: 14
+    Body: tire
+    Parent: 
+    Lods:
+    - {fileID: 7093686393117199197, guid: 57b9f6cb11212d145ba613ebc036f43a, type: 3}
+    - {fileID: 955888261646003880, guid: 57b9f6cb11212d145ba613ebc036f43a, type: 3}
+    - {fileID: 5858147211265979407, guid: 57b9f6cb11212d145ba613ebc036f43a, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: 53c944e4d27693a4e92b33a6b4bd7853, type: 2}
+  - Kind: 14
+    Body: hub
+    Parent: 
+    Lods:
+    - {fileID: 6935818114786791800, guid: 4eadabe956abf644cba402c7dfabd56b, type: 3}
+    - {fileID: -5298143343374551084, guid: 4eadabe956abf644cba402c7dfabd56b, type: 3}
+    - {fileID: -770921087232581947, guid: 4eadabe956abf644cba402c7dfabd56b, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: cfac7d37c37cfb54c8d42dfaa11752bf, type: 2}
+  - Kind: 15
+    Body: body
+    Parent: 
+    Lods:
+    - {fileID: 6149302567649104647, guid: 19fcbb6562e5cf14eb58f897b40fe65e, type: 3}
+    - {fileID: 527167370955782365, guid: 19fcbb6562e5cf14eb58f897b40fe65e, type: 3}
+    - {fileID: -5298609986600546473, guid: 19fcbb6562e5cf14eb58f897b40fe65e, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: f4ed2a7640a9d4148a46129369803a7c, type: 2}
+    - {fileID: 2100000, guid: 410a7bbc76a9e124fbe477025bc854e7, type: 2}
+  - Kind: 16
+    Body: body
+    Parent: 
+    Lods:
+    - {fileID: -1560121968460818604, guid: 6b9addb14cdb12744bc88e1beba45078, type: 3}
+    - {fileID: -1867792329612815363, guid: 6b9addb14cdb12744bc88e1beba45078, type: 3}
+    - {fileID: -5314368848386318766, guid: 6b9addb14cdb12744bc88e1beba45078, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: 0c4feb9b905376a469cccd9ba01d9736, type: 2}
+    - {fileID: 2100000, guid: 99d6884464fe6af4aa606105fb92055d, type: 2}
+  - Kind: 10
+    Body: body
+    Parent: 
+    Lods:
+    - {fileID: 8713983930454147477, guid: 764bbdd4d1a5c4241aa247a5e36cfcbd, type: 3}
+    - {fileID: 4578554566255713333, guid: 764bbdd4d1a5c4241aa247a5e36cfcbd, type: 3}
+    - {fileID: 7835697442520569709, guid: 764bbdd4d1a5c4241aa247a5e36cfcbd, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: 0c4feb9b905376a469cccd9ba01d9736, type: 2}
+    - {fileID: 2100000, guid: 99d6884464fe6af4aa606105fb92055d, type: 2}
+  - Kind: 9
+    Body: body
+    Parent: 
+    Lods:
+    - {fileID: 8538400025172936, guid: 47b9ded2ec2dd164780b1b2c4b046eb3, type: 3}
+    - {fileID: -1561308713564267060, guid: 47b9ded2ec2dd164780b1b2c4b046eb3, type: 3}
+    - {fileID: 1147335007068047169, guid: 47b9ded2ec2dd164780b1b2c4b046eb3, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: 0c4feb9b905376a469cccd9ba01d9736, type: 2}
+    - {fileID: 2100000, guid: 99d6884464fe6af4aa606105fb92055d, type: 2}
+  - Kind: 11
+    Body: body
+    Parent: 
+    Lods:
+    - {fileID: -2686214760399222947, guid: 8dff6188ec99925458989c22e8ad6275, type: 3}
+    - {fileID: 8820177962204261042, guid: 8dff6188ec99925458989c22e8ad6275, type: 3}
+    - {fileID: 5029235926465171829, guid: 8dff6188ec99925458989c22e8ad6275, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: 0c4feb9b905376a469cccd9ba01d9736, type: 2}
+    - {fileID: 2100000, guid: 99d6884464fe6af4aa606105fb92055d, type: 2}
+  - Kind: 17
+    Body: body
+    Parent: 
+    Lods:
+    - {fileID: 105889644766559523, guid: 04797d73ca730234698d255e402e7e0c, type: 3}
+    - {fileID: 799115672172240052, guid: 04797d73ca730234698d255e402e7e0c, type: 3}
+    - {fileID: -989662622743663064, guid: 04797d73ca730234698d255e402e7e0c, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: 31f5b140b9418db4191021efc3397693, type: 2}
+    - {fileID: 2100000, guid: f4ed2a7640a9d4148a46129369803a7c, type: 2}
+    - {fileID: 2100000, guid: cfac7d37c37cfb54c8d42dfaa11752bf, type: 2}
+  - Kind: 17
+    Body: body
+    Parent: Silver spiral bit
+    Lods:
+    - {fileID: -6180676814188985239, guid: ce1e949304e5e8a4ebc017708180f8d2, type: 3}
+    - {fileID: 1876484678569648969, guid: ce1e949304e5e8a4ebc017708180f8d2, type: 3}
+    - {fileID: -3006645255878096391, guid: ce1e949304e5e8a4ebc017708180f8d2, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: ab2fb3d35ee3d084b9ee652a69718bd1, type: 2}
+  Lod0Degrees: 1.6
+  Lod1Degrees: 0.5
+  BumpMid:
+  - {fileID: 2450600621242927598, guid: ad06f493d7f5bc54b9ffe5083154c06e, type: 3}
+  - {fileID: 2974687838453418501, guid: ad06f493d7f5bc54b9ffe5083154c06e, type: 3}
+  - {fileID: -3171034213195840868, guid: ad06f493d7f5bc54b9ffe5083154c06e, type: 3}
+  BumpEnd:
+  - {fileID: 7627213472718882983, guid: a98b4d53153b7cc448ffac40518a5465, type: 3}
+  - {fileID: -807348512682776237, guid: a98b4d53153b7cc448ffac40518a5465, type: 3}
+  - {fileID: -4090921066550985210, guid: a98b4d53153b7cc448ffac40518a5465, type: 3}
+  BumpPaint: {fileID: 2100000, guid: 2f766b120ec725d4ca323f68103acb0a, type: 2}
+  BumpBase: {fileID: 2100000, guid: 29fca5d1dc60b854085ab65116347db6, type: 2}
+  BumpLod0Degrees: 2
+  BumpLod1Degrees: 0.7
+  Handwheel:
+  - {fileID: -9077442673928156574, guid: 473a308e830c2894fb8ce2b74ad9cd45, type: 3}
+  - {fileID: 7708386633590256700, guid: 473a308e830c2894fb8ce2b74ad9cd45, type: 3}
+  - {fileID: 3760886099083223104, guid: 473a308e830c2894fb8ce2b74ad9cd45, type: 3}
+  HandwheelMaterials:
+  - {fileID: 2100000, guid: f4ed2a7640a9d4148a46129369803a7c, type: 2}
+  - {fileID: 2100000, guid: 0c4feb9b905376a469cccd9ba01d9736, type: 2}
+  - {fileID: 2100000, guid: 410a7bbc76a9e124fbe477025bc854e7, type: 2}

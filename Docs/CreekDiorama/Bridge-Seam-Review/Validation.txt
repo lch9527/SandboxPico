@@ -1,0 +1,11 @@
+Both images: 4x MSAA, 1500x1000, render scale 1, no post-processing/depth/opaque texture. Same-frame capture.
+level=1 detailed_renderers=6 filtered_renderers=1 detailed_triangles=40020 filtered_triangles=2564
+level=1 frame=13 relative_height=0.1111 transition=0.35 camera=(0.03945, 4.68200, 8.17151)
+level=2 detailed_renderers=6 filtered_renderers=1 detailed_triangles=40266 filtered_triangles=2440
+level=2 frame=15 relative_height=0.0761 transition=0.35 camera=(0.03945, 4.68200, 8.17151)
+level=3 detailed_renderers=6 filtered_renderers=1 detailed_triangles=35664 filtered_triangles=1924
+level=3 frame=17 relative_height=0.0912 transition=0.35 camera=(0.03945, 4.68200, 8.17151)
+level=4 detailed_renderers=6 filtered_renderers=1 detailed_triangles=31764 filtered_triangles=1720
+level=4 frame=19 relative_height=0.0872 transition=0.35 camera=(0.03945, 4.68200, 8.17151)
+level=5 detailed_renderers=6 filtered_renderers=1 detailed_triangles=70422 filtered_triangles=4140
+level=5 frame=21 relative_height=0.1015 transition=0.35 camera=(1.72019, 3.11546, -0.55738)

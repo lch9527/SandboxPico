@@ -1,0 +1,564 @@
+{
+  "description": "Recorded Soundsnap Pro+ library sounds (Soundsnap license), conformed to mono 48 kHz PCM16. Raw downloads are kept outside Assets in MetaHackthone/sfx; the earlier procedural clips are in sfx/_original_synth.",
+  "generator": "conform_sfx.py (see Docs/SandboxAudio.md)",
+  "assets": [
+    {
+      "file": "Attach_0.wav",
+      "seconds": 0.164,
+      "loop": false,
+      "source": [
+        "1218210.audio-WOODImpt-Wood_Block_Tok_A_1-RogueWaves-KawaiiUI.wav"
+      ],
+      "sha256": "2a3329092a5eb17432a61966860f521249ceb24e33244efba65344f19b4185cf"
+    },
+    {
+      "file": "Attach_1.wav",
+      "seconds": 0.169,
+      "loop": false,
+      "source": [
+        "1218211.audio-WOODImpt-Wood_Block_Tok_A_2-RogueWaves-KawaiiUI.wav"
+      ],
+      "sha256": "a7a8c479f324bb4cc9899c40c008905e5ef8847709cdcde5ad4201efd5e39fdd"
+    },
+    {
+      "file": "Attach_2.wav",
+      "seconds": 0.149,
+      "loop": false,
+      "source": [
+        "1218212.audio-WOODImpt-Wood_Block_Tok_A_3-RogueWaves-KawaiiUI.wav"
+      ],
+      "sha256": "a9ff12e5ee2e33a191034c99610a14281e51ec85fda84ecd5fb7d1507bcbecad"
+    },
+    {
+      "file": "Attach_3.wav",
+      "seconds": 0.126,
+      "loop": false,
+      "source": [
+        "1218213.audio-WOODImpt-Wood_Block_Tok_B_1-RogueWaves-KawaiiUI.wav"
+      ],
+      "sha256": "1d71b1af10c0bfccdc89fb52ff1001937c5dac04b9746c1456df3fbe5136db34"
+    },
+    {
+      "file": "Detach_0.wav",
+      "seconds": 0.082,
+      "loop": false,
+      "source": [
+        "157515-MB-Wood-Box-Open-05.wav"
+      ],
+      "sha256": "ebf11bcb4451102be2d8dd468c7487f97373161b816bcfb244cf25187a53cbf9"
+    },
+    {
+      "file": "Detach_1.wav",
+      "seconds": 0.13,
+      "loop": false,
+      "source": [
+        "157516-MB-Wood-Box-Open-03.wav"
+      ],
+      "sha256": "b0d900d59d8cc0ed064e49beecf1fbee064cc9bccaffe4998ceeb52258e3376c"
+    },
+    {
+      "file": "Detach_2.wav",
+      "seconds": 0.185,
+      "loop": false,
+      "source": [
+        "157517-MB-Wood-Box-Open-02.wav"
+      ],
+      "sha256": "b0e2e16dbc8ee2e42a875082e12235cb316e5b2c69ab971048522cf2c72da796"
+    },
+    {
+      "file": "Detach_3.wav",
+      "seconds": 0.068,
+      "loop": false,
+      "source": [
+        "157509-MB-Wood-Box-Small-Lid-03.wav"
+      ],
+      "sha256": "38dd533b2bf6e996cd87cf400052fca467ce4785832bfb3370d83d0863cd487a"
+    },
+    {
+      "file": "Grab_0.wav",
+      "seconds": 0.3,
+      "loop": false,
+      "source": [
+        "246123-wood_block_movement_on_wood_floor-01.wav"
+      ],
+      "sha256": "65e0841a0fd108f35e3f1cf151e0528814144a5e3ad2aec82d9f2d4b7c0d11d0"
+    },
+    {
+      "file": "Grab_1.wav",
+      "seconds": 0.3,
+      "loop": false,
+      "source": [
+        "246124-wood_block_movement_on_wood_floor-02.wav"
+      ],
+      "sha256": "1c089b861a3537a95d1fd009d6565727cb53f50a80ff0146169fdd8a104a7c08"
+    },
+    {
+      "file": "Grab_2.wav",
+      "seconds": 0.3,
+      "loop": false,
+      "source": [
+        "246125-wood_block_movement_on_wood_floor-03.wav"
+      ],
+      "sha256": "91695037d75e38d55fb6f0ddf38a07e8f71639dd4729e8386be76cbbc787b448"
+    },
+    {
+      "file": "Grab_3.wav",
+      "seconds": 0.3,
+      "loop": false,
+      "source": [
+        "246126-wood_block_movement_on_wood_floor-04.wav"
+      ],
+      "sha256": "bc98c567fa04eb0dfc882347edfae98f2e29ea962186a31859425a24ec6a7227"
+    },
+    {
+      "file": "Reject_0.wav",
+      "seconds": 0.3,
+      "loop": false,
+      "source": [
+        "248553-Wood_Drop_7.wav"
+      ],
+      "sha256": "0f62b41e2c0752c99226a0711c6ad44c3c44a01bb0dfa3dd74fa49765e30f135"
+    },
+    {
+      "file": "Reject_1.wav",
+      "seconds": 0.245,
+      "loop": false,
+      "source": [
+        "248553-Wood_Drop_7.wav"
+      ],
+      "sha256": "9fb579d33c8ed4922de18a9c81268aef5e4834f0a630fb656d672d3d70d00304"
+    },
+    {
+      "file": "Reject_2.wav",
+      "seconds": 0.203,
+      "loop": false,
+      "source": [
+        "248554-Wood_Drop_8.wav"
+      ],
+      "sha256": "82164a849bb2309dc0a2b59759fa4e03e5eff0f6863c05a34204b3f1504861fc"
+    },
+    {
+      "file": "Reject_3.wav",
+      "seconds": 0.326,
+      "loop": false,
+      "source": [
+        "248553-Wood_Drop_7.wav (pitched -8%)"
+      ],
+      "sha256": "afcc56e10880faec19d039b3c9f62b5244afa4e67304243a0df02fa7e41ce2b1"
+    },
+    {
+      "file": "Button_0.wav",
+      "seconds": 0.35,
+      "loop": false,
+      "source": [
+        "404411-Wooden_User_Interface_Button_Click_-Soft_and_Thick_Mechanism_Clank_005524_.wav"
+      ],
+      "sha256": "b49418eebc41b8ce51d3557402b7d25445ea37e46da22208525690ce38aafd61"
+    },
+    {
+      "file": "Button_1.wav",
+      "seconds": 0.125,
+      "loop": false,
+      "source": [
+        "404498-Wooden_Block_Light_Impact_Click_-User_Interface_Button_or_Slots_Reel_Stop_005304_.wav"
+      ],
+      "sha256": "79399c4f0403072699a84dfaa0e1c2619e65b36df049d0cd918b2054f7794de0"
+    },
+    {
+      "file": "Button_2.wav",
+      "seconds": 0.195,
+      "loop": false,
+      "source": [
+        "404499-Wooden_Block_Solid_Impact_Click_-User_Interface_Button_or_Slots_Reel_Stop_005305_.wav"
+      ],
+      "sha256": "154ecb557208cffe0c4b15c4dcf1d863b2d47701d784de8cbf9df339d7f4ed1d"
+    },
+    {
+      "file": "Button_3.wav",
+      "seconds": 0.016,
+      "loop": false,
+      "source": [
+        "423084-Puzzle-Game-Organic-Wood-Block-Tone-Tap-3-App-Click.wav"
+      ],
+      "sha256": "e0b9b9088146977b7b6ef18331f2ac626f4876078142efa078590576c7b12c5e"
+    },
+    {
+      "file": "WheelTick_0.wav",
+      "seconds": 0.12,
+      "loop": false,
+      "source": [
+        "257626-Mechanism_-Ratcher-001.wav"
+      ],
+      "sha256": "53503d45289fd9b453af044a8962f8ef89cf2b8c425651ec3bcee6f209a7d880"
+    },
+    {
+      "file": "WheelTick_1.wav",
+      "seconds": 0.12,
+      "loop": false,
+      "source": [
+        "257627-Mechanism_-Ratcher-002.wav"
+      ],
+      "sha256": "62e6c7de3c52edd7724b28570cfc3b52d99faa3fbb34796df6fb6d5e9f7c926f"
+    },
+    {
+      "file": "WheelTick_2.wav",
+      "seconds": 0.12,
+      "loop": false,
+      "source": [
+        "257628-Mechanism_-Ratcher-003.wav"
+      ],
+      "sha256": "5603a26defaf7c09632d446ff727be3272d617573d1aa65ce7e99d221120816a"
+    },
+    {
+      "file": "WheelTick_3.wav",
+      "seconds": 0.12,
+      "loop": false,
+      "source": [
+        "43479-INDUSTRY_TOOLS_RATCHET_CLICKS_SLOW_01.wav"
+      ],
+      "sha256": "dd3e2deb0d05fc21889f5bb40e478eab3d69dc05c4e170131a61990dadf78c41"
+    },
+    {
+      "file": "WoodImpact_0.wav",
+      "seconds": 0.271,
+      "loop": false,
+      "source": [
+        "544618.audio-wooden_block_soft_hit_1_-Mono.wav"
+      ],
+      "sha256": "8ce2ab3b83578fd6d881bc0c28c42933276cdd30a8f5c657f763a1ac800748ff"
+    },
+    {
+      "file": "WoodImpact_1.wav",
+      "seconds": 0.314,
+      "loop": false,
+      "source": [
+        "544618.audio-wooden_block_soft_hit_1_-Mono.wav"
+      ],
+      "sha256": "5c424d2cd1958d3f59df9e4bd9779e3d55a915b22a5df25b2f95576613c24d86"
+    },
+    {
+      "file": "WoodImpact_2.wav",
+      "seconds": 0.239,
+      "loop": false,
+      "source": [
+        "544618.audio-wooden_block_soft_hit_1_-Mono.wav"
+      ],
+      "sha256": "af10318646ce4a86d06d7c5df248097e53420a8e1259e313c652ec75048b67e2"
+    },
+    {
+      "file": "WoodImpact_3.wav",
+      "seconds": 0.251,
+      "loop": false,
+      "source": [
+        "544618.audio-wooden_block_soft_hit_1_-Mono.wav"
+      ],
+      "sha256": "8ea5abdeab16c71187e4906b2fdeec1e99c8a36d6b3396cc3d2aab92f05805a7"
+    },
+    {
+      "file": "RubberImpact_0.wav",
+      "seconds": 0.349,
+      "loop": false,
+      "source": [
+        "283200-RubberBallBouncing6.wav"
+      ],
+      "sha256": "3e4285e303cb8dc6bfd49b1cc1445b3cedebc69539d5b13973ab1a5b5fe47f5d"
+    },
+    {
+      "file": "RubberImpact_1.wav",
+      "seconds": 0.348,
+      "loop": false,
+      "source": [
+        "283202-RubberBallBouncing8.wav"
+      ],
+      "sha256": "8a405d5e2e03bb77935b5ccaa263311a4903abdad9b61dc4c54126730f67bee8"
+    },
+    {
+      "file": "RubberImpact_2.wav",
+      "seconds": 0.235,
+      "loop": false,
+      "source": [
+        "283203-RubberBallBouncing9.wav"
+      ],
+      "sha256": "427c744828b25500da4ab199bf7d7b45965b948e809ee9d5a5cba0a07f1529bd"
+    },
+    {
+      "file": "RubberImpact_3.wav",
+      "seconds": 0.139,
+      "loop": false,
+      "source": [
+        "42660-FOLEY_RUBBER_BALL_BOUNCE_01.wav"
+      ],
+      "sha256": "682a92ef9441da978c6ef8644040a677617ab9fa00a265cf541ad777ecd5df30"
+    },
+    {
+      "file": "MetalImpact_0.wav",
+      "seconds": 0.201,
+      "loop": false,
+      "source": [
+        "245270-small_metal_impact_strike-02.wav"
+      ],
+      "sha256": "cf1988deff6feed9f3db628dda0929f3eb7f7381a55e8623e445202e97738012"
+    },
+    {
+      "file": "MetalImpact_1.wav",
+      "seconds": 0.158,
+      "loop": false,
+      "source": [
+        "245271-small_metal_impact_strike-03.wav"
+      ],
+      "sha256": "5488057525a5ec8abe497cc72f58a8a2e99e0c76c26d75e4fb4327260a6e17f5"
+    },
+    {
+      "file": "MetalImpact_2.wav",
+      "seconds": 0.181,
+      "loop": false,
+      "source": [
+        "245273-small_metal_impact_strike-05.wav"
+      ],
+      "sha256": "e58f859f938e04d01d6395e735564bb2c13972a28161001505d1c276c73aab83"
+    },
+    {
+      "file": "MetalImpact_3.wav",
+      "seconds": 0.198,
+      "loop": false,
+      "source": [
+        "245274-small_metal_impact_strike-06.wav"
+      ],
+      "sha256": "5e2a16208cedfb41a839974453b4a0175f0879f2ff4d1946f1b28f744e36530e"
+    },
+    {
+      "file": "Countdown.wav",
+      "seconds": 0.8,
+      "loop": false,
+      "source": [
+        "317097-Countdown-Beep-Bell-Low_Pitch-1.wav"
+      ],
+      "sha256": "02431dfa602008b36ff122a56b514823758ae1ed59af1e4079b9d5012c294e2d"
+    },
+    {
+      "file": "Go.wav",
+      "seconds": 1.0,
+      "loop": false,
+      "source": [
+        "317098-Countdown-Go-Beep-Bell-Low_Pitch-2.wav"
+      ],
+      "sha256": "5ceb3d329e6f7d505e9fb10e75ff9aafdb4dec26d988eca00ce83e8c95bd5a84"
+    },
+    {
+      "file": "Success.wav",
+      "seconds": 2.479,
+      "loop": false,
+      "source": [
+        "497539-Mobile-Game-Musical-Theme-Fanfare_Victory_1.wav"
+      ],
+      "sha256": "5b7ef107e65e9188b7648a8fbb442da25e6a37cda7ce7d765c842c7eb1f3352e"
+    },
+    {
+      "file": "Failure.wav",
+      "seconds": 1.385,
+      "loop": false,
+      "source": [
+        "273568-Game-Over.wav"
+      ],
+      "sha256": "4ecd8c3566bd961165f7de273887af3760d5d895e0bca077ee40dd6b0a5f0715"
+    },
+    {
+      "file": "Reveal.wav",
+      "seconds": 1.508,
+      "loop": false,
+      "source": [
+        "274206-Ancient-Game-Magic-Reveal-2.wav"
+      ],
+      "sha256": "d41281cf6d1737c9acb21fca71b15b352335a2785c95d9bb686e2d1a52edefb2"
+    },
+    {
+      "file": "Claim.wav",
+      "seconds": 1.5,
+      "loop": false,
+      "source": [
+        "274176-Ancient-Game-Magic-Airy-Item-Collect.wav"
+      ],
+      "sha256": "7fa524098025ceb06fd0eca14ce53e7898c3f5d8f98bafcb3cb58ac256796392"
+    },
+    {
+      "file": "Arrive.wav",
+      "seconds": 0.7,
+      "loop": false,
+      "source": [
+        "274168-Ancient-Game-Item-Magic-Poof-2.wav"
+      ],
+      "sha256": "91c63ef286b1c9ffbbaf01f3b6102b3830f8d761cdc20562772f681fcec0d568"
+    },
+    {
+      "file": "Splash.wav",
+      "seconds": 1.2,
+      "loop": false,
+      "source": [
+        "118952-Water_splash_from_a_stone_4.wav"
+      ],
+      "sha256": "57eb0cbd5272f386d2d8b7f246e54f69413d72e79295b6ca05a1bb321b50b0f5"
+    },
+    {
+      "file": "Gather.wav",
+      "seconds": 0.45,
+      "loop": false,
+      "source": [
+        "403991-Magical_Anticipation_Windup_-Buildup_Riser_Whoosh_with_Sparkles_-04_004743_.wav"
+      ],
+      "sha256": "873c26a6f728ebc660c721be4bd00c3bd5fcb0d3005325d9ddfd8352fd6fe0ed"
+    },
+    {
+      "file": "Travel.wav",
+      "seconds": 1.0,
+      "loop": false,
+      "source": [
+        "274233-Ancient-Game-Magic-Whoosh-No-Bell-2.wav"
+      ],
+      "sha256": "06f8e5755db3f5836c2c1b0bc1451abd26a8ebec3cc5bf207745245f06484e0a"
+    },
+    {
+      "file": "Rolling.wav",
+      "seconds": 3.0,
+      "loop": true,
+      "source": [
+        "1215512.audio-TOYMisc-Medium_Plastic_Toy_Car_Rolling_on_Wood_Floor-RogueWaves-KidsToys.wav"
+      ],
+      "sha256": "5a2302a7b4d713f6617b9872e9bf8ff40a13ae92aa16cf95d890c173fe7b6d81"
+    },
+    {
+      "file": "Rattle.wav",
+      "seconds": 3.0,
+      "loop": true,
+      "source": [
+        "13050-WAGON-LIGHT_-ROLLING.wav"
+      ],
+      "sha256": "1ac413b3ee21044caeaa3e107115c758904dad91d9244e504d52171d86d0f289"
+    },
+    {
+      "file": "Drill.wav",
+      "seconds": 3.0,
+      "loop": true,
+      "source": [
+        "528012-Dremel_Med_01.wav"
+      ],
+      "sha256": "937ca03c64d9d20a6ead85b69c6424bde21fc0ff97f317a32edad8932027b544"
+    },
+    {
+      "file": "Water.wav",
+      "seconds": 6.0,
+      "loop": true,
+      "source": [
+        "328421-Stream-Small-Calm-Gentle-Gurgle-Loop_02.wav"
+      ],
+      "sha256": "ff0ca83a5e15d56d80c8a7f7e6a8483f01b27654c2a2fe95a7e0288c78a700fc"
+    },
+    {
+      "file": "GrabDrill_0.wav",
+      "seconds": 0.35,
+      "loop": false,
+      "source": [
+        "182825-servo-drill-unpowered-moves-1.wav"
+      ],
+      "sha256": "fb5da56d02e96a31b910e05d03051e81dddedf6b168bd1478406aeabdf7bcdd6"
+    },
+    {
+      "file": "GrabDrill_1.wav",
+      "seconds": 0.35,
+      "loop": false,
+      "source": [
+        "182826-servo-drill-unpowered-moves-2.wav"
+      ],
+      "sha256": "b07f957617803d6c14db97c1857e9ef7a4cd65a163b1db669ef6b878ad0a7655"
+    },
+    {
+      "file": "GrabDrill_2.wav",
+      "seconds": 0.35,
+      "loop": false,
+      "source": [
+        "182827-servo-drill-unpowered-moves-3.wav"
+      ],
+      "sha256": "4189b939f96b2629e77c968b8c5689b0548c90ad74a2e0741bd51b785a450ca9"
+    },
+    {
+      "file": "GrabDrill_3.wav",
+      "seconds": 0.35,
+      "loop": false,
+      "source": [
+        "182828-servo-drill-unpowered-moves-4.wav"
+      ],
+      "sha256": "df51ae187b58cdb268998224ed6dfaec93278cd69e09f4a2c59bfff23d664dac"
+    },
+    {
+      "file": "GrabWheel_0.wav",
+      "seconds": 0.087,
+      "loop": false,
+      "source": [
+        "437985-MEDICINE_BALL-11LB-Grab_Sides-Hit-Hardwood-ST-D100.wav"
+      ],
+      "sha256": "6d2e4feea57d95365ccda0a4efd461711d6463565e9bf2549742674091af94c3"
+    },
+    {
+      "file": "GrabWheel_1.wav",
+      "seconds": 0.162,
+      "loop": false,
+      "source": [
+        "437985-MEDICINE_BALL-11LB-Grab_Sides-Hit-Hardwood-ST-D100.wav"
+      ],
+      "sha256": "560ae6c8d50176402b9287865e01e8dff1302b758827ba1e5a13fc6f24437f51"
+    },
+    {
+      "file": "GrabWheel_2.wav",
+      "seconds": 0.287,
+      "loop": false,
+      "source": [
+        "519390-KB002.wav"
+      ],
+      "sha256": "0087bf6a9d56ed90d8d8016fe32e605a152008689c37f25d1cf9461fc7226bf9"
+    },
+    {
+      "file": "GrabWheel_3.wav",
+      "seconds": 0.217,
+      "loop": false,
+      "source": [
+        "519390-KB002.wav"
+      ],
+      "sha256": "ca70e00f6053191ff9a6941173e67c0807605c0fb9343ebbef83aab5a5eaa246"
+    },
+    {
+      "file": "DrillBreak_0.wav",
+      "seconds": 1.316,
+      "loop": false,
+      "source": [
+        "306212-Rock-Impact-Colosseum-Break_1_Hi.wav"
+      ],
+      "sha256": "27d1fbb69f71705be90f8256df5148c5a11953c3d347cadc479f9bed53332251"
+    },
+    {
+      "file": "DrillBreak_1.wav",
+      "seconds": 1.6,
+      "loop": false,
+      "source": [
+        "306213-Rock-Impact-Colosseum-Break_1_Lo.wav"
+      ],
+      "sha256": "bfe4bc26377fec62de9197cc1a24df73e4161baee43c2200957a226ce28d6870"
+    },
+    {
+      "file": "DrillBreak_2.wav",
+      "seconds": 0.886,
+      "loop": false,
+      "source": [
+        "306214-Rock-Impact-Colosseum-Break_2_Hi.wav"
+      ],
+      "sha256": "2f336b0a7eb6e656525c8aa08010330358866b488a83f53679c2825f573cf279"
+    },
+    {
+      "file": "DrillBreak_3.wav",
+      "seconds": 1.51,
+      "loop": false,
+      "source": [
+        "306215-Rock-Impact-Colosseum-Break_2_Lo.wav"
+      ],
+      "sha256": "9f213665bfdf6c83f1b9ec6d3be767a730e0312c521e1a9faba29ea4c961b44e"
+    }
+  ]
+}

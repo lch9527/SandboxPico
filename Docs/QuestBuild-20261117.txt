@@ -1,0 +1,36 @@
+Quest build and publication validation — 2026-11-17
+
+Built the existing ten enabled scenes for Android ARM64 / IL2CPP, Development,
+LZ4, using Unity 6000.3.21f1. Build job build-a96cec6dd3 succeeded with zero
+errors and five warnings. APK: Builds/MetaHackthone.apk (479,215,000 bytes).
+Package: com.metahackathon2026.metahackthone, version 0.1.0 (1).
+Installed on the connected Quest 3, retaining application data. The installed
+base.apk SHA-256 exactly matched the local build:
+987bbdefa2887e11c0d3b2b72342af3a2304f55db8bfc77c5c313483c79a6803
+Installation was verified; this is not a headset gameplay/performance test.
+
+Fresh publication checks:
+- PlayMode job b37914a50b1c42ceb82e0d296f043d62: 13/13 passed, selected
+  campaign carryover, handle grabbing, scenery, part-sound and water tests.
+- EditMode job 6cccf49a29124810aa4bfb7cfcc9fe9d: 12/12 passed,
+  SceneryMotionRepairTests and SandboxSoundBankTests.
+- All 62 audio assets checked against their source-manifest hashes, mono
+  48 kHz PCM16 format, peak limits and loop/one-shot seams.
+- New Unity assets have matching metadata files.
+
+Earlier scenery validation is separate: 40/45 broad EditMode checks passed;
+four road-bounds fixtures on unchanged scenery and one rope-count fixture
+failed. Five scenery PlayMode checks passed, with captures of all five levels.
+Exhaustive moving-foliage collision validation remains outstanding.
+
+Cleanup: 13 stale October log files (3,972,599 bytes) archived outside the
+repository under ../_backups/cleanup-20261117-quest. Archiving does not reclaim
+disk space. Generated performance-test JSON files are ignored. Reviewed
+line-ending-only serialization churn and generated OpenXR action-map reference
+churn were backed up and restored to their baseline; debugger access settings
+remain local and are excluded from publication.
+
+Portability: Packages/manifest.json retains its existing local dependency
+file:../../PICO XR SDK. Another workstation needs that package at the matching
+relative path. Runtime assets, source artwork, audio sources and documentation
+are retained. The APK and logs remain local ignored build outputs.

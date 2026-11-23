@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FilteredBridgeDeck
+  m_Shader: {fileID: 4800000, guid: bf0579c3a5b843345b0473a475ec1bc4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _GapDuty: 0.1
+    - _GapShade: 0.38
+    - _Pitch: 0.35
+    - _Smoothness: 0.44
+    - _Width: 2.8
+    m_Colors:
+    - _Wood0: {r: 0.8209798, g: 0.5926193, b: 0.33182997, a: 1}
+    - _Wood1: {r: 0.8962438, g: 0.6799757, b: 0.4100208, a: 1}
+    - _Wood2: {r: 0.94999737, g: 0.7547806, b: 0.5063863, a: 1}
+    - _Wood3: {r: 0.865042, g: 0.6262096, b: 0.3574911, a: 1}
+    - _Wood4: {r: 0.9162735, g: 0.7083696, b: 0.4613561, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

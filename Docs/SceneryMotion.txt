@@ -1,0 +1,67 @@
+SCENERY ANIMATION — LEVELS 1–5
+
+All levels: pennants sway; pines, round-canopy trees, ferns, ivy and daisies
+move in the wind. Lupins sway where present. Existing river, waterfall and
+cloud shader animation remains in place.
+Level2: life rings swing and mooring ropes flex with anchored endpoints.
+Level3: unpowered display wheels remain stationary.
+Levels4 and 5: unused winch drums and cranks remain stationary.
+Level5: all three Freight_Windmill rotors turn once every 15 seconds.
+
+Ground clusters (Meadow verge, Mooring supplies, Workshop supplies, Quarry
+scree and Freight garden) use Ground palette with zero displacement. Only
+the distant Horizon transition islands use Horizon palette with explicit
+0.2 metre float. The shader defaults to zero displacement for new materials.
+The shared material previously made 17 mixed ground clusters bob, including
+their rocks, plants and rigid props.
+
+SceneryMotionRepair corrects saved scenes, published campaign prefabs and
+reusable scenery prefabs without rebuilding meshes. Its triangle audit checks
+pennants through their sway range and rotors through a full revolution,
+excluding their attachment to their own mast or axle. Pedestal relocation
+requires support under its corners. Repair-report.txt under Logs/SceneryMotion
+lists corrected paths and explicitly identifies any unresolved intersections.
+This geometry audit uses neighboring meshes at their rest pose; moving foliage
+against other moving foliage and shader-only cloud intersections still require
+visual review. Do not interpret a clean mechanical audit as exhaustive wind
+collision validation.
+
+Preview: MetaHackthone > Design Mode > Preview Scenery Motion.
+Preview is temporary and stops before saving/export, Play, scene changes,
+selection changes, Undo/Redo, script reload, or a click in the Scene view.
+Stop preview before editing a transform in the Inspector. Save normally with
+Ctrl+S outside Play mode to update the gameplay copy.
+
+Select Environment and use Scenery Wind Settings to adjust Strength (0–1)
+and Speed (0.25–2). The authored maximum strength keeps the baked motion
+bounds valid. These controls affect vegetation and flexible ropes.
+Mechanical parts and pennants use Car Scenery Breeze: Degrees Per Second
+controls continuous rotation, Sway Degrees controls oscillation, Frequency
+is radians/second, and Phase offsets the cycle. Keep the material pieces of
+one wheel or winch on matching settings so they remain aligned.
+
+Vegetation and rope animation runs in the GPU shader. Mesh UV channel 3
+contains anchor/amplitude/frequency/phase; channel 4 explicitly contains rope
+metadata or zero for plants. Rendering, shadows and depth use the same
+deformation. No per-frame vegetation scripts or material instantiation.
+The runtime shader clock is initialized once; level wind settings apply on
+enable. The preview supplies a reversible editor clock.
+
+Mechanical moving pieces were split once from existing mesh triangles,
+preserving their rest surface and materials. Rope subdivision adds vertices
+on the existing surface. SceneryMotionAuthored is a conversion stamp: it
+never regenerates anything. Manually deleted moving parts stay deleted.
+Do not rerun the old scenery dressing/build commands to apply these effects.
+
+Reusable animated copies are under Assets/CreekDiorama/AnimatedScenery/Prefabs.
+Original source prefabs were retained to avoid unexpectedly updating nested
+instances and duplicating the newly authored moving parts.
+Scene and campaign backups are under Logs/SceneryMotion/Before.
+Validation captures are in Logs/SceneryMotion and Logs/CarScenery.
+
+The new shaders derive from the installed URP Lit shader using
+Tools/CreekDiorama/build_scenery_shader.py. Run this explicitly after a URP
+upgrade and repeat shader/rendering tests; package sources are never edited.
+
+This change does not install a new Quest build. Headset performance must be
+checked after the next build/install; desktop tests are not a Quest benchmark.

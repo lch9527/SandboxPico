@@ -1,0 +1,34 @@
+Visual LODs; source meshes/colliders unchanged. Leaf LODs are opaque geometry, not alpha dithering.
+FOLIAGE Assets/CreekDiorama/Meshes/EndpointIslands/Level1 lowered terrace 60e4d96cf60bfea4b8a0091c829f0db8.asset tree=False pieces=17873->8662 triangles=136046->80780
+FOLIAGE Assets/CreekDiorama/Meshes/EndpointIslands/Level1 lowered terrace fa3f12882b26c4c40b9739e6431c44bc.asset tree=False pieces=11593->5571 triangles=86124->49992
+FOLIAGE Assets/CreekDiorama/Meshes/EndpointIslands/Level1 lowered terrace fd4b410048cab1f49b71d91f3ec7f1f7.asset tree=False pieces=4553->3573 triangles=58128->52248
+FOLIAGE Assets/CreekDiorama/Meshes/EndpointIslands/Level1 lowered terrace 1e9462719f262324385708efe65a4c3b.asset tree=True pieces=911->105 triangles=12726->3570
+FOLIAGE Assets/CreekDiorama/Meshes/EndpointIslands/Level1 lowered terrace 5a28020fc0f60ab428a2b8455c679d5e.asset tree=True pieces=2732->115 triangles=37942->13600
+FOLIAGE Assets/CreekDiorama/Meshes/EndpointIslands/Level1 lowered terrace ee7fd8de42bcc4b4a9ec843143aa43ed.asset tree=True pieces=1518->6 triangles=13722->600
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Flowers_Daisies_1.asset tree=False pieces=16->13 triangles=206->188
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Flowers_Daisies_3.asset tree=False pieces=17->6 triangles=102->36
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Flowers_Daisies_4.asset tree=False pieces=22->8 triangles=132->48
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Flowers_Lupin_2.asset tree=False pieces=20->7 triangles=120->42
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Flowers_Lupin_3.asset tree=False pieces=8->3 triangles=48->18
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Pine_Branching_0.asset tree=True pieces=55->7 triangles=814->238
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Pine_Branching_1.asset tree=True pieces=166->7 triangles=2370->840
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Pine_Branching_2.asset tree=True pieces=74->0 triangles=714->0
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Tree_Round_Canopy_0.asset tree=True pieces=204->3 triangles=1506->300
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Tree_Round_Canopy_2.asset tree=True pieces=121->5 triangles=1196->500
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Tree_Round_Canopy_3.asset tree=True pieces=43->0 triangles=258->0
+BASE 9e0d182527302854ba92fbeffcf5f5c1 unit=0.190732762 original=3248 far=408
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Dressing_1_0.asset tree=False pieces=17873->8662 triangles=136046->80780
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Dressing_1_1.asset tree=False pieces=11593->5571 triangles=86124->49992
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Dressing_1_2.asset tree=False pieces=4553->3573 triangles=58128->52248
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Dressing_2_0.asset tree=True pieces=911->105 triangles=12726->3570
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Dressing_2_1.asset tree=True pieces=2732->115 triangles=37942->13600
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Dressing_2_2.asset tree=True pieces=1518->6 triangles=13722->600
+BASE 7188018ea824ecc40a01efa9fdd8f035 unit=0.190732762 original=3248 far=408
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Moss_Overhang_0.asset tree=False pieces=78->26 triangles=468->156
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Moss_Overhang_1.asset tree=False pieces=42->14 triangles=252->84
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Grass_Soft_Tuft_0.asset tree=False pieces=13->5 triangles=78->30
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Grass_Soft_Tuft_1.asset tree=False pieces=10->4 triangles=60->24
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Grass_Soft_Tuft_2.asset tree=False pieces=4->2 triangles=24->12
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Shrub_Broadleaf_0.asset tree=True pieces=70->4 triangles=796->400
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Shrub_Broadleaf_1.asset tree=True pieces=50->3 triangles=582->300
+FOLIAGE Assets/CreekDiorama/Meshes/Botanical/Shrub_Broadleaf_2.asset tree=True pieces=7->0 triangles=42->0

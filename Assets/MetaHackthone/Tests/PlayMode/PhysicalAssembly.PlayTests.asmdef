@@ -1,0 +1,5 @@
+{
+  "name": "PhysicalAssembly.PlayTests",
+  "references": ["PhysicalAssembly.Runtime", "PhysicalAssembly.MetaXR", "Oculus.Interaction", "Oculus.VR", "Unity.InputSystem", "Unity.RenderPipelines.Universal.Runtime"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "level": 1,
+    "lod0StaticTriangles": 611959,
+    "allSupportedLod1StaticTriangles": 405695,
+    "reduction": 206264,
+    "reductionPercent": 33.7,
+    "waterSurfaceTriangles": 6,
+    "waterfallSprayImpactTriangles": 268,
+    "cloudBodyShellTriangles": 33880,
+    "nativeLodGroups": 0
+  },
+  {
+    "level": 2,
+    "lod0StaticTriangles": 626328,
+    "allSupportedLod1StaticTriangles": 419216,
+    "reduction": 207112,
+    "reductionPercent": 33.1,
+    "waterSurfaceTriangles": 6,
+    "waterfallSprayImpactTriangles": 268,
+    "cloudBodyShellTriangles": 48400,
+    "nativeLodGroups": 0
+  },
+  {
+    "level": 3,
+    "lod0StaticTriangles": 687358,
+    "allSupportedLod1StaticTriangles": 473074,
+    "reduction": 214284,
+    "reductionPercent": 31.2,
+    "waterSurfaceTriangles": 6,
+    "waterfallSprayImpactTriangles": 268,
+    "cloudBodyShellTriangles": 48400,
+    "nativeLodGroups": 4
+  },
+  {
+    "level": 4,
+    "lod0StaticTriangles": 663084,
+    "allSupportedLod1StaticTriangles": 455694,
+    "reduction": 207390,
+    "reductionPercent": 31.3,
+    "waterSurfaceTriangles": 6,
+    "waterfallSprayImpactTriangles": 268,
+    "cloudBodyShellTriangles": 48400,
+    "nativeLodGroups": 3
+  },
+  {
+    "level": 5,
+    "lod0StaticTriangles": 313417,
+    "allSupportedLod1StaticTriangles": 284287,
+    "reduction": 29130,
+    "reductionPercent": 9.3,
+    "waterSurfaceTriangles": 6,
+    "waterfallSprayImpactTriangles": 0,
+    "cloudBodyShellTriangles": 48400,
+    "nativeLodGroups": 1
+  }
+]

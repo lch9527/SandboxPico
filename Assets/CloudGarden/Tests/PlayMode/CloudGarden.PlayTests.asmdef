@@ -1,0 +1,17 @@
+{
+  "name": "CloudGarden.PlayTests",
+  "references": [
+    "CloudGarden.Integration",
+    "PhysicalAssembly.Runtime",
+    "PhysicalAssembly.MetaXR",
+    "Unity.InputSystem",
+    "Unity.ugui",
+    "Oculus.Interaction",
+    "Oculus.VR",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.RenderPipelines.Core.Runtime"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

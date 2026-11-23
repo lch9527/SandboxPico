@@ -1,0 +1,65 @@
+{
+  "revision": "0.3",
+  "date": "2026-11-08",
+  "language": "English",
+  "status": "0.2.1 / Android code 4 index-ray UI and separate Art V2 candidate; 129 EditMode and 30 PlayMode passed; APK audits tracked separately; physical acceptance and M2/M3 remain pending",
+  "authoritative_sources": "The ordered JSON sections below are authoritative. Edit the source, regenerate DOCX, render and inspect all pages before delivery. Do not hand-edit generated DOCX without reconciling the source.",
+  "generator": "Tools/BuildEmberdeepDesignDocs.py",
+  "documents": [
+    {
+      "title": "Emberdeep Game Design and Development Specification",
+      "short_title": "Design and development",
+      "file": "Emberdeep-Design-and-Development.docx",
+      "sources": [
+        "DesignControl.json",
+        "GameplaySections.json",
+        "DirectorDetailSections.json",
+        "EngineeringSections.json",
+        "ImplementationStatus.json"
+      ]
+    },
+    {
+      "title": "Emberdeep Art V2 Delivery",
+      "short_title": "Art V2 delivery",
+      "file": "Emberdeep-Art-V2-Delivery.docx",
+      "sources": [
+        "ArtV2Iteration.json"
+      ]
+    },
+    {
+      "title": "Emberdeep Art Production Requirements",
+      "short_title": "Art production",
+      "file": "Emberdeep-Art-Production-Requirements.docx",
+      "sources": [
+        "ArtControl.json",
+        "ArtProductionSections.json"
+      ]
+    }
+  ],
+  "change_log": [
+    {
+      "revision": "0.2",
+      "date": "2026-11-04",
+      "decision": "Expand the showcase overview into implementation and art specifications. Make physical water collection, safe search, animal rescue and deeper sector progression the next development direction.",
+      "implementation_status": "Documentation only. No new runtime feature or APK is implied by this revision.",
+      "verification": "Baseline source and existing test reports inspected; new mechanics require future implementation and device acceptance."
+    },
+    {
+      "revision": "0.2.1",
+      "date": "2026-11-06",
+      "decision": "Implement M1 manual hydrant and creek supply, exclusive refill input, conserved tank amounts and sector-entry retry; retain the repaired camp menu and standalone route.",
+      "implementation_status": "0.2.0 / Android code 3 M1 candidate with clean Editor rule and interaction regressions. Headset usability and performance are not accepted. M2 search, animals, settlement and durable saves, and M3 sidegrades remain proposed.",
+      "verification": "Clean release verification: 119 EditMode and 17 PlayMode passed, zero failed, under Logs/EmberdeepM1/ReleaseVerification. APK status remains separately tracked in ImplementationStatus.json. Worn-headset checks are deferred by user availability; M1DeviceAcceptance.json is the handoff checklist. Word regenerated with structural content verification; new visual rendering remains blocked by unavailable bundled LibreOffice and stalled unlicensed Word export."
+    },
+    {
+      "revision": "0.3",
+      "date": "2026-11-08",
+      "decision": "Respond to user-reported unusable hand buttons with visible index-finger rays and same-hand fresh-pinch UI across camp, modals, HUD and shop. Deliver separate editable Blender Art V2 assets and bounded Unity rendering integration while preserving M1 manual supply and stable menu placement.",
+      "implementation_status": "0.2.1 / Android code 4 candidate. The historical positive device confirmation remains front placement only; no headset is connected this iteration. M2 search, animals, settlement and durable saves, and M3 progression remain proposed.",
+      "verification": "Current release verification passed 129 EditMode and 30 PlayMode tests with zero failures under Logs/EmberdeepV2/ReleaseVerification. APK scene/settings/hash audits are tracked separately in Logs/EmberdeepV2/ReleaseEvidence.json. All three DOCX regenerated; source-content and hash QA at Logs/EmberdeepV2/Docs/qa.json. Visual document QA remains unavailable: no bundled LibreOffice and historical native Word export stalled while unlicensed; no Word retry or old render is claimed as current evidence."
+    }
+  ],
+  "implementation_status_source": "ImplementationStatus.json",
+  "device_acceptance_source": "M1DeviceAcceptance.json",
+  "art_iteration_source": "ArtV2Iteration.json"
+}

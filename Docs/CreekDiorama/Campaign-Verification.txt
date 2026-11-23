@@ -1,0 +1,10 @@
+Base: Plastic main cs44
+Actual scene: DownhillSandbox
+Shared departure/arrival station prefab: yes
+Play flow: Build -> portal proxy -> Countdown -> Running -> Return -> Build
+Original construction preserved
+Simulation renderers restored
+Course 1 and 2 decoration colliders: 0
+Campaign second course rebuild and portal launch verified
+Shader errors: 0
+Headset validation: not performed

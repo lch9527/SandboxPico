@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f612405505f7f4287670a49b246e7c, type: 3}
+  m_Name: Combined wide high drill
+  m_EditorClassIdentifier: PhysicalAssembly.Runtime::PhysicalAssembly.SandboxTestCarAsset
+  Assembly:
+    formatVersion: 4
+    parts:
+    - id: cb7821c40d8f4cb7bdfc7c1eabc53f13
+      kind: 15
+      gridVersion: 10
+      buildingCore: 1
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: body
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+    - id: 7d5c12f738be4a509df74ab9c4d07380
+      kind: 9
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: body
+        position: {x: 0, y: -0.034912184, z: 0}
+        rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+    - id: 02e727981f2845ec8ab03e6c91c50894
+      kind: 10
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: body
+        position: {x: 0, y: 0.052368276, z: 0}
+        rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    - id: 51affdc0f7004cc3b7870579a169ccc2
+      kind: 9
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: body
+        position: {x: -0.06982437, y: -0.034912184, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+    - id: dc82faa35bb646698caafec53e2e08ea
+      kind: 9
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: body
+        position: {x: 0.06982437, y: -0.034912184, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+    - id: ba0d31cea1d14bfaa91e4cbb61c2eea4
+      kind: 17
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: body
+        position: {x: 0, y: 0.06982437, z: 0.039641492}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+    - id: 0ad20c8d21ba46ce89d57b1aa5b8073c
+      kind: 14
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: hub
+        position: {x: -0.097845994, y: -0.034912195, z: 0.034912184}
+        rotation: {x: 1.4551915e-11, y: 1, z: 0, w: -0.000000043695763}
+      - id: tire
+        position: {x: -0.097845994, y: -0.034912195, z: 0.034912184}
+        rotation: {x: -1.0913936e-11, y: 1.0000004, z: 0, w: -0.000000043706677}
+    - id: 1db6099ddf5c43d7b17d29c3035fc37f
+      kind: 13
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: hub
+        position: {x: -0.097845994, y: -0.034912184, z: -0.034912184}
+        rotation: {x: 2.1827873e-11, y: 1, z: 0, w: -0.00000004377216}
+      - id: tire
+        position: {x: -0.097845994, y: -0.034912184, z: -0.034912184}
+        rotation: {x: 1.5916157e-11, y: 1, z: 0, w: -0.000000043693035}
+    - id: c66414bfb44a470b8cdae26062cf0afd
+      kind: 14
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: hub
+        position: {x: 0.097845994, y: -0.034912184, z: 0.034912184}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+      - id: tire
+        position: {x: 0.097845994, y: -0.034912184, z: 0.034912184}
+        rotation: {x: 1.7763568e-15, y: -3.637979e-12, z: 0, w: 1.0000004}
+    - id: 7c94aae5712a4a82b2056ad689161773
+      kind: 13
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: hub
+        position: {x: 0.097845994, y: -0.034912184, z: -0.034912184}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+      - id: tire
+        position: {x: 0.097845994, y: -0.034912184, z: -0.034912184}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+    connections:
+    - id: dfcea824e5434d739d61113f74c1ea0a
+      a:
+        partId: 7d5c12f738be4a509df74ab9c4d07380
+        bodyId: body
+      b:
+        partId: cb7821c40d8f4cb7bdfc7c1eabc53f13
+        bodyId: body
+      socketA: grid_center_y+_0_2
+      socketB: grid_center_y-_0_0
+      attachmentOrder: 1
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: 0, y: 0.017456092, z: 0}
+      anchorB: {x: 0, y: -0.017456092, z: 0}
+    - id: d4fb366b129040f1b92e269b7851382e
+      a:
+        partId: 51affdc0f7004cc3b7870579a169ccc2
+        bodyId: body
+      b:
+        partId: 7d5c12f738be4a509df74ab9c4d07380
+        bodyId: body
+      socketA: grid_center_x+_2_0
+      socketB: grid_center_z-_0_0
+      attachmentOrder: 2
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: 0.017456092, y: 0, z: 0}
+      anchorB: {x: 0, y: 0, z: -0.05236828}
+    - id: 1f8a7711e4de4c10bd5b839ee195292d
+      a:
+        partId: 0ad20c8d21ba46ce89d57b1aa5b8073c
+        bodyId: hub
+      b:
+        partId: 51affdc0f7004cc3b7870579a169ccc2
+        bodyId: body
+      socketA: mount
+      socketB: grid_center_x-_0_0
+      attachmentOrder: 3
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: -0.01056553, y: 0, z: 0}
+      anchorB: {x: -0.017456092, y: 0, z: 0.034912184}
+    - id: bf0fc24ff27644a280045f281dfae7d0
+      a:
+        partId: 1db6099ddf5c43d7b17d29c3035fc37f
+        bodyId: hub
+      b:
+        partId: 51affdc0f7004cc3b7870579a169ccc2
+        bodyId: body
+      socketA: mount
+      socketB: grid_center_x-_4_0
+      attachmentOrder: 4
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: -0.01056553, y: 0, z: 0}
+      anchorB: {x: -0.017456092, y: 0, z: -0.034912184}
+    - id: a4ad219a85c54017809bc6ca656d9eed
+      a:
+        partId: dc82faa35bb646698caafec53e2e08ea
+        bodyId: body
+      b:
+        partId: 7d5c12f738be4a509df74ab9c4d07380
+        bodyId: body
+      socketA: grid_center_x-_2_0
+      socketB: grid_center_z+_0_0
+      attachmentOrder: 5
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: -0.017456092, y: 0, z: 0}
+      anchorB: {x: 0, y: 0, z: 0.05236828}
+    - id: 3c9b0be6ac0c40808839466050237cbd
+      a:
+        partId: c66414bfb44a470b8cdae26062cf0afd
+        bodyId: hub
+      b:
+        partId: dc82faa35bb646698caafec53e2e08ea
+        bodyId: body
+      socketA: mount
+      socketB: grid_center_x+_4_0
+      attachmentOrder: 6
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: -0.01056553, y: 0, z: 0}
+      anchorB: {x: 0.017456092, y: 0, z: 0.034912184}
+    - id: 295e0c5ccab14132b8060bc1fa66b82c
+      a:
+        partId: 7c94aae5712a4a82b2056ad689161773
+        bodyId: hub
+      b:
+        partId: dc82faa35bb646698caafec53e2e08ea
+        bodyId: body
+      socketA: mount
+      socketB: grid_center_x+_0_0
+      attachmentOrder: 7
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: -0.01056553, y: 0, z: 0}
+      anchorB: {x: 0.017456092, y: 0, z: -0.034912184}
+    - id: 2dae3b86858b45f592425a1efda9312e
+      a:
+        partId: 02e727981f2845ec8ab03e6c91c50894
+        bodyId: body
+      b:
+        partId: cb7821c40d8f4cb7bdfc7c1eabc53f13
+        bodyId: body
+      socketA: grid_center_z+_0_0
+      socketB: grid_center_y+_0_0
+      attachmentOrder: 8
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: 0, y: 0, z: 0.034912184}
+      anchorB: {x: 0, y: 0.017456092, z: 0}
+    - id: 5cbf186a594244fa8c2fdd62def3be5f
+      a:
+        partId: ba0d31cea1d14bfaa91e4cbb61c2eea4
+        bodyId: body
+      b:
+        partId: 02e727981f2845ec8ab03e6c91c50894
+        bodyId: body
+      socketA: base
+      socketB: grid_center_y+_0_0
+      attachmentOrder: 9
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: 0, y: 0, z: -0.022185398}
+      anchorB: {x: 0, y: 0.017456092, z: -0.017456092}

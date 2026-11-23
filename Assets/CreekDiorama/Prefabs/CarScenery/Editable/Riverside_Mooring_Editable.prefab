@@ -1,0 +1,789 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7170728941097243038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7611332885750330098}
+  m_Layer: 0
+  m_Name: Riverside_Mooring_Editable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7611332885750330098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7170728941097243038}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5204791428302972155}
+  - {fileID: 5394299704954981009}
+  - {fileID: 6790315109347896492}
+  - {fileID: 2695776636832524326}
+  - {fileID: 5271609903304535530}
+  - {fileID: 689075037984609961}
+  - {fileID: 3992569486529205201}
+  - {fileID: 6631005860453629191}
+  - {fileID: 6578011555311444186}
+  - {fileID: 7368185241354144977}
+  - {fileID: 2456515885228400267}
+  - {fileID: 7494312346854635965}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1117495608090946993
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7611332885750330098}
+    m_Modifications:
+    - target: {fileID: 4200794744198827106, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+      propertyPath: m_Name
+      value: Riverside_Mooring__Mooring_Post_RBack
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017993169781575862, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.27999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017993169781575862, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017993169781575862, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.17999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017993169781575862, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017993169781575862, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017993169781575862, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017993169781575862, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017993169781575862, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017993169781575862, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017993169781575862, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+--- !u!4 &6631005860453629191 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6017993169781575862, guid: 801b7ad75981786468dafc6d7309fac5, type: 3}
+  m_PrefabInstance: {fileID: 1117495608090946993}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1460147014876700654
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7611332885750330098}
+    m_Modifications:
+    - target: {fileID: 5021914405059928954, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+      propertyPath: m_Name
+      value: Riverside_Mooring__Mooring_Rope_Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215259001120756543, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215259001120756543, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.20199999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215259001120756543, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.14999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215259001120756543, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215259001120756543, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215259001120756543, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215259001120756543, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215259001120756543, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215259001120756543, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215259001120756543, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+--- !u!4 &7368185241354144977 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8215259001120756543, guid: 2aed272183a7b6348947ded59df34c1d, type: 3}
+  m_PrefabInstance: {fileID: 1460147014876700654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1915549235334762484
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7611332885750330098}
+    m_Modifications:
+    - target: {fileID: 2397832886002592696, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+      propertyPath: m_Name
+      value: Riverside_Mooring__Mooring_Post_RFront
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745860835596218158, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.27999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745860835596218158, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745860835596218158, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.18000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745860835596218158, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745860835596218158, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745860835596218158, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745860835596218158, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745860835596218158, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745860835596218158, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745860835596218158, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+--- !u!4 &6578011555311444186 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4745860835596218158, guid: 915101bea8cc16d4c84833352bfcf8cd, type: 3}
+  m_PrefabInstance: {fileID: 1915549235334762484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2938620718931018977
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7611332885750330098}
+    m_Modifications:
+    - target: {fileID: 2243626771686230172, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+      propertyPath: m_Name
+      value: Riverside_Mooring__Rope_Coil
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668322575462743388, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.11999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668322575462743388, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.06893782
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668322575462743388, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668322575462743388, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668322575462743388, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668322575462743388, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668322575462743388, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668322575462743388, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668322575462743388, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668322575462743388, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+--- !u!4 &7494312346854635965 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4668322575462743388, guid: 36d0facd317d0f74ea418243cd84a7d2, type: 3}
+  m_PrefabInstance: {fileID: 2938620718931018977}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4292436317135991665
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7611332885750330098}
+    m_Modifications:
+    - target: {fileID: 4731913043195470884, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+      propertyPath: m_Name
+      value: Riverside_Mooring__Deck
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326731568788430813, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326731568788430813, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326731568788430813, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000000014901161
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326731568788430813, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326731568788430813, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326731568788430813, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326731568788430813, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326731568788430813, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326731568788430813, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326731568788430813, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+--- !u!4 &6790315109347896492 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7326731568788430813, guid: 09a8d0cd47f7bcc4fb96c09d17695958, type: 3}
+  m_PrefabInstance: {fileID: 4292436317135991665}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4702962322916425700
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7611332885750330098}
+    m_Modifications:
+    - target: {fileID: 684377178292722463, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.07000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 684377178292722463, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.07999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 684377178292722463, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.04000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 684377178292722463, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 684377178292722463, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 684377178292722463, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 684377178292722463, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 684377178292722463, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 684377178292722463, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 684377178292722463, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4489089379552807654, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+      propertyPath: m_Name
+      value: Riverside_Mooring__Crab_Pot_A
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+--- !u!4 &5204791428302972155 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 684377178292722463, guid: 1df68bfe7dfbefd44ae7cd3f0e4aa139, type: 3}
+  m_PrefabInstance: {fileID: 4702962322916425700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5780811535010974206
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7611332885750330098}
+    m_Modifications:
+    - target: {fileID: 505738412227768437, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+      propertyPath: m_Name
+      value: Riverside_Mooring__Mooring_Post_LFront
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444984262831135279, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.27999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444984262831135279, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444984262831135279, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.18000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444984262831135279, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444984262831135279, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444984262831135279, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444984262831135279, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444984262831135279, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444984262831135279, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444984262831135279, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+--- !u!4 &3992569486529205201 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7444984262831135279, guid: 8f940f91459bbcd4a94745d14ecb2ba9, type: 3}
+  m_PrefabInstance: {fileID: 5780811535010974206}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6039169666679470621
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7611332885750330098}
+    m_Modifications:
+    - target: {fileID: 3381925248580179709, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+      propertyPath: m_Name
+      value: Riverside_Mooring__Mooring_Post_LBack
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247908836141164877, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.27999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247908836141164877, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247908836141164877, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.17999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247908836141164877, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247908836141164877, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247908836141164877, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247908836141164877, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247908836141164877, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247908836141164877, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247908836141164877, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+--- !u!4 &689075037984609961 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5247908836141164877, guid: 99bc1f8e95a61634fbc8cd82dcdd7acc, type: 3}
+  m_PrefabInstance: {fileID: 6039169666679470621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7193042421604442438
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7611332885750330098}
+    m_Modifications:
+    - target: {fileID: 2958503183776377815, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958503183776377815, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.07999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958503183776377815, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.04000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958503183776377815, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958503183776377815, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958503183776377815, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958503183776377815, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958503183776377815, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958503183776377815, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958503183776377815, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166795797867131666, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+      propertyPath: m_Name
+      value: Riverside_Mooring__Crab_Pot_B
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+--- !u!4 &5394299704954981009 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2958503183776377815, guid: 6bacf56be31a1dc4bbe05589def6e1d1, type: 3}
+  m_PrefabInstance: {fileID: 7193042421604442438}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8553429908213493106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7611332885750330098}
+    m_Modifications:
+    - target: {fileID: 4583369643089035416, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.24999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4583369643089035416, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.07999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4583369643089035416, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.119999945
+      objectReference: {fileID: 0}
+    - target: {fileID: 4583369643089035416, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4583369643089035416, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4583369643089035416, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4583369643089035416, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4583369643089035416, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4583369643089035416, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4583369643089035416, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424209496128343000, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+      propertyPath: m_Name
+      value: Riverside_Mooring__Life_Ring_Stand
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+--- !u!4 &5271609903304535530 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4583369643089035416, guid: b743c2b2720fcf54b8e22d0dd9b7514a, type: 3}
+  m_PrefabInstance: {fileID: 8553429908213493106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8811343681269757498
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7611332885750330098}
+    m_Modifications:
+    - target: {fileID: 6854897500680379932, guid: e92289530566684449f15b8384e3a679, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854897500680379932, guid: e92289530566684449f15b8384e3a679, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.319
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854897500680379932, guid: e92289530566684449f15b8384e3a679, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.09999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854897500680379932, guid: e92289530566684449f15b8384e3a679, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854897500680379932, guid: e92289530566684449f15b8384e3a679, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854897500680379932, guid: e92289530566684449f15b8384e3a679, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854897500680379932, guid: e92289530566684449f15b8384e3a679, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854897500680379932, guid: e92289530566684449f15b8384e3a679, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854897500680379932, guid: e92289530566684449f15b8384e3a679, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854897500680379932, guid: e92289530566684449f15b8384e3a679, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7777370500812630443, guid: e92289530566684449f15b8384e3a679, type: 3}
+      propertyPath: m_Name
+      value: Riverside_Mooring__Life_Ring
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e92289530566684449f15b8384e3a679, type: 3}
+--- !u!4 &2695776636832524326 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6854897500680379932, guid: e92289530566684449f15b8384e3a679, type: 3}
+  m_PrefabInstance: {fileID: 8811343681269757498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8942250897398511688
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7611332885750330098}
+    m_Modifications:
+    - target: {fileID: 5959537168909360414, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+      propertyPath: m_Name
+      value: Riverside_Mooring__Mooring_Rope_Front
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777369876295034563, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777369876295034563, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.20199998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777369876295034563, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.15000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777369876295034563, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777369876295034563, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777369876295034563, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777369876295034563, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777369876295034563, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777369876295034563, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777369876295034563, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+--- !u!4 &2456515885228400267 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6777369876295034563, guid: 4df2b79238ab5434981eb00ffebbb00b, type: 3}
+  m_PrefabInstance: {fileID: 8942250897398511688}
+  m_PrefabAsset: {fileID: 0}

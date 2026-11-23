@@ -1,0 +1,13 @@
+Desktop PlayMode. 1500x1000, 4x MSAA, URP scale 1, no PP/depth/opaque texture. Before=component off, After=automatic LOD. Same-frame A/B.
+level=1 groups=30 detailed_renderers=35 far_renderers=32 detailed_triangles=357162 far_triangles=204496
+capture=Level1 frame=1399 position=(0.03945, 4.68200, 8.17151) rotation=(20.47628, 168.78020, 0.00000)
+capture=Base frame=1399 position=(10.72224, 2.68998, 8.03181) rotation=(9.60520, 241.84040, 0.00000)
+capture=Plants frame=1399 position=(7.18494, 5.76795, 9.78470) rotation=(17.23921, 239.17780, 0.00000)
+level=2 groups=27 detailed_renderers=32 far_renderers=29 detailed_triangles=356722 far_triangles=204224
+capture=Level2 frame=1401 position=(0.03945, 4.68200, 8.17151) rotation=(17.35273, 168.82450, 0.00000)
+level=3 groups=46 detailed_renderers=51 far_renderers=48 detailed_triangles=365612 far_triangles=207402
+capture=Level3 frame=1403 position=(0.03945, 4.68200, 8.17151) rotation=(16.58665, 170.49100, 0.00000)
+level=4 groups=43 detailed_renderers=48 far_renderers=45 detailed_triangles=365172 far_triangles=207130
+capture=Level4 frame=1405 position=(0.03945, 4.68200, 8.17151) rotation=(14.57640, 172.12200, 0.00000)
+level=5 groups=56 detailed_renderers=56 far_renderers=56 detailed_triangles=35708 far_triangles=11204
+capture=Level5 frame=1407 position=(1.72019, 3.11546, -0.55738) rotation=(18.44103, 331.96140, 0.00000)

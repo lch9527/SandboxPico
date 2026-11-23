@@ -1,0 +1,99 @@
+{
+  "candidate": "0.2.1 / Android versionCode 4",
+  "status": "Pending worn-headset acceptance",
+  "devices": [
+    "PICO 4 (performance baseline)",
+    "Quest 3"
+  ],
+  "record_for_each_run": [
+    "Device and OS",
+    "APK SHA256 from matching manifest",
+    "Seated or standing",
+    "Left or right hand",
+    "Tester and date",
+    "Pass/fail, assistance and discomfort",
+    "CPU/GPU timing and capture method when profiling"
+  ],
+  "scenarios": [
+    {
+      "id": "M1-DEVICE-01",
+      "action": "Cold launch looking forward, then repeat while initially looking sideways. Extend either index finger and aim its visible cyan ray at Settings. Pinch with that same pointing hand. Repeat with the other hand, Sound, Back, Quit/Cancel, New Game and fireground recenter. Keep the head still while moving only the pointing hand; also verify pointing remains usable while the index curls to pinch.",
+      "expected": "Menu appears at eye height in front after stable tracking; camera is never forcibly rotated. The index ray and cursor identify the selected button with cyan feedback. Only the pointing hand's fresh pinch clicks; head gaze and the other hand's pinch cannot click that target. A held pinch cannot click through a page or modal. Record failure if any button cannot be operated physically."
+    },
+    {
+      "id": "M1-DEVICE-02",
+      "action": "Take the extinguisher, open the hand, then pinch to spray until empty. Wait with the hand open.",
+      "expected": "Pickup pinch does not fire. Water follows the visible arc. Empty tank stays empty. Reachable cyan hydrant remains available."
+    },
+    {
+      "id": "M1-DEVICE-03",
+      "action": "Move the refill coupling into the hydrant socket. Try wrong orientation, then hold aligned. Turn valve partly, release, then turn 45 degrees.",
+      "expected": "Misalignment explains the failure. Dock confirms after aligned dwell. Incomplete turn gives no water. Accepted detent starts gauge, flow light and audio together."
+    },
+    {
+      "id": "M1-DEVICE-04",
+      "action": "Close early, reopen, fill fully, then pinch the tool grip to disconnect. Repeat using only one hand and the broad valve tap alternative.",
+      "expected": "Partial water is retained. Full stops flow. A fresh open-hand rearm is required before firing. No action needs a second hand."
+    },
+    {
+      "id": "M1-DEVICE-05",
+      "action": "In sector two, dock at the creek, pinch the intake, move it to the marked water socket and release. Pull its pump 8 cm and return to within 2 cm of home.",
+      "expected": "Only a complete connected stroke adds 12 units, clamped at capacity. Partial strokes, decorative water contact and idle pumping give nothing."
+    },
+    {
+      "id": "M1-DEVICE-06",
+      "action": "Interrupt filling and an extended pump stroke by covering the operating hand, suspending the headset, or losing focus. Resume while pinching.",
+      "expected": "Flow and weapon charge stop safely; incomplete stroke is discarded. Intake returns safely. Resume never opens flow or launches a shot; reconnect and deliberately rearm."
+    },
+    {
+      "id": "M1-DEVICE-07",
+      "action": "While docked, point the index ray at REFILL ASSIST and pinch with that same hand. Keep the pinch closed near the valve/pump. Then open and perform a new action. Attempt to point at Return Tool while still docked.",
+      "expected": "The UI pinch does not operate a second control. Supply ownership prevents unrelated UI actions. Assistance pauses hazards only; it does not grant water or override lost tracking. Subsequent deliberate station operation works."
+    },
+    {
+      "id": "M1-DEVICE-08",
+      "action": "Clear an incident, point and same-hand pinch Gear Shop, Next/Previous, Buy, Tune and Back; repeat with each hand. Return to camp and Continue, then Retry an active sector. During cannon charge, point at a HUD button and then release the pinch.",
+      "expected": "Shop and HUD use the same hand-ray interaction as camp. Opening a modal or hovering UI cancels charge; release cannot launch a shot and a held UI pinch cannot act again. New equipment is empty; switching/upgrading/changing sector does not fill it. Camp preserves in-memory water. Retry restores entry water and earnings together."
+    },
+    {
+      "id": "M1-DEVICE-09",
+      "action": "With the cannon, test pinch charge and its cyan offhand pump. Begin charge, dock to supply, then operate the separate creek pump.",
+      "expected": "Docking cancels the shot. Refill motion never charges or fires the cannon. After disconnect and fresh-open rearm both cannon controls remain usable."
+    },
+    {
+      "id": "M1-DEVICE-10",
+      "action": "Repeat each core action with left/right hands while seated/standing. Play ten minutes, including later incident particles and hand occlusion.",
+      "expected": "No excessive reach, bending, lost source or progression lock. Record actual frame timing against the proposed 72 Hz /13.9 ms target; do not infer performance from Editor results."
+    },
+    {
+      "id": "M1-DEVICE-11",
+      "action": "Use camp, Quit confirmation and Android Back paths; relaunch the app.",
+      "expected": "No route reaches shared, shadow or car scenes. Quit remains deliberate. M1 has no durable save: relaunch starts a new expedition; M2 persistence remains explicitly pending."
+    },
+    {
+      "id": "M1-DEVICE-12",
+      "action": "Inspect the Art V2 terrain, trees, cabin, hydrant and creek pump in both eyes. Test active flames, smoke, water strands, wet/scorched surfaces, and return to camp. Record worst observed CPU/GPU timing on PICO 4 and repeat compatibility checks on Quest 3.",
+      "expected": "UI rays and cyan controls remain legible without hiding the work area. No distracting stereo artifacts or oversized tool shadows. Camp restores its prior rendering configuration. Asset budgets and Editor screenshots do not substitute for measured headset frame timing."
+    }
+  ],
+  "scope_limit": "M1 validates manual supply and retained combat. Safe search, loot deposits, animals, settlement and durable recovery are not implemented by this candidate. Editor captures and synthetic hands do not establish physical acceptance.",
+  "current_editor_evidence": {
+    "EditMode": {
+      "status": "passed",
+      "passed": 129,
+      "failed": 0,
+      "path": "Logs/EmberdeepV2/ReleaseVerification/EditMode-results.json",
+      "scope": "Current 0.2.1 candidate Editor verification. Synthetic interactions do not establish headset usability, comfort or performance."
+    },
+    "PlayMode": {
+      "status": "passed",
+      "passed": 30,
+      "failed": 0,
+      "path": "Logs/EmberdeepV2/ReleaseVerification/PlayMode-results.json",
+      "scope": "Current 0.2.1 candidate Editor verification. Synthetic interactions do not establish headset usability, comfort or performance."
+    }
+  },
+  "art_iteration_source": "ArtV2Iteration.json",
+  "build_evidence": "Logs/EmberdeepV2/ReleaseEvidence.json",
+  "device_availability": "No headset connected in this iteration; no new physical acceptance."
+}

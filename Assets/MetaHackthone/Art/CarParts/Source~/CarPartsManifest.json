@@ -1,0 +1,1081 @@
+{
+ "unit": 0.08728045666666667,
+ "drill_base": -0.05546350419540999,
+ "drill_tip": 0.11530498601530004,
+ "pieces": {
+  "SmallWheelTire": [
+   {
+    "triangles": 1056,
+    "vertices": 528,
+    "closed": true,
+    "min": [
+     -0.026414,
+     -0.068906,
+     -0.068906
+    ],
+    "max": [
+     0.026414,
+     0.068906,
+     0.068906
+    ],
+    "materials": [
+     "CarArt_Rubber"
+    ]
+   },
+   {
+    "triangles": 432,
+    "vertices": 216,
+    "closed": true,
+    "min": [
+     -0.026414,
+     -0.066558,
+     -0.066558
+    ],
+    "max": [
+     0.026414,
+     0.066558,
+     0.066558
+    ],
+    "materials": [
+     "CarArt_Rubber"
+    ]
+   },
+   {
+    "triangles": 96,
+    "vertices": 48,
+    "closed": true,
+    "min": [
+     -0.026414,
+     -0.067872,
+     -0.067872
+    ],
+    "max": [
+     0.026414,
+     0.067872,
+     0.067872
+    ],
+    "materials": [
+     "CarArt_Rubber"
+    ]
+   }
+  ],
+  "SmallWheelHub": [
+   {
+    "triangles": 384,
+    "vertices": 194,
+    "closed": true,
+    "min": [
+     -0.025357,
+     -0.025495,
+     -0.025495
+    ],
+    "max": [
+     0.025357,
+     0.025495,
+     0.025495
+    ],
+    "materials": [
+     "CarArt_Brass"
+    ]
+   },
+   {
+    "triangles": 192,
+    "vertices": 98,
+    "closed": true,
+    "min": [
+     -0.025357,
+     -0.025495,
+     -0.025495
+    ],
+    "max": [
+     0.025357,
+     0.025495,
+     0.025495
+    ],
+    "materials": [
+     "CarArt_Brass"
+    ]
+   },
+   {
+    "triangles": 32,
+    "vertices": 18,
+    "closed": true,
+    "min": [
+     -0.025357,
+     -0.025495,
+     -0.025495
+    ],
+    "max": [
+     0.025357,
+     0.025495,
+     0.025495
+    ],
+    "materials": [
+     "CarArt_Brass"
+    ]
+   }
+  ],
+  "LargeWheelTire": [
+   {
+    "triangles": 1056,
+    "vertices": 528,
+    "closed": true,
+    "min": [
+     -0.026414,
+     -0.101062,
+     -0.101062
+    ],
+    "max": [
+     0.026414,
+     0.101062,
+     0.101062
+    ],
+    "materials": [
+     "CarArt_Rubber"
+    ]
+   },
+   {
+    "triangles": 432,
+    "vertices": 216,
+    "closed": true,
+    "min": [
+     -0.026414,
+     -0.097618,
+     -0.097618
+    ],
+    "max": [
+     0.026414,
+     0.097618,
+     0.097618
+    ],
+    "materials": [
+     "CarArt_Rubber"
+    ]
+   },
+   {
+    "triangles": 96,
+    "vertices": 48,
+    "closed": true,
+    "min": [
+     -0.026414,
+     -0.099546,
+     -0.099546
+    ],
+    "max": [
+     0.026414,
+     0.099546,
+     0.099546
+    ],
+    "materials": [
+     "CarArt_Rubber"
+    ]
+   }
+  ],
+  "LargeWheelHub": [
+   {
+    "triangles": 384,
+    "vertices": 194,
+    "closed": true,
+    "min": [
+     -0.025357,
+     -0.037393,
+     -0.037393
+    ],
+    "max": [
+     0.025357,
+     0.037393,
+     0.037393
+    ],
+    "materials": [
+     "CarArt_Brass"
+    ]
+   },
+   {
+    "triangles": 192,
+    "vertices": 98,
+    "closed": true,
+    "min": [
+     -0.025357,
+     -0.037393,
+     -0.037393
+    ],
+    "max": [
+     0.025357,
+     0.037393,
+     0.037393
+    ],
+    "materials": [
+     "CarArt_Brass"
+    ]
+   },
+   {
+    "triangles": 32,
+    "vertices": 18,
+    "closed": true,
+    "min": [
+     -0.025357,
+     -0.037393,
+     -0.037393
+    ],
+    "max": [
+     0.025357,
+     0.037393,
+     0.037393
+    ],
+    "materials": [
+     "CarArt_Brass"
+    ]
+   }
+  ],
+  "Core": [
+   {
+    "triangles": 788,
+    "vertices": 396,
+    "closed": true,
+    "min": [
+     -0.04364,
+     -0.04364,
+     -0.04364
+    ],
+    "max": [
+     0.04364,
+     0.04364,
+     0.04364
+    ],
+    "materials": [
+     "CarArt_Enamel",
+     "CarArt_Energy"
+    ]
+   },
+   {
+    "triangles": 284,
+    "vertices": 144,
+    "closed": true,
+    "min": [
+     -0.04364,
+     -0.04364,
+     -0.04364
+    ],
+    "max": [
+     0.04364,
+     0.04364,
+     0.04364
+    ],
+    "materials": [
+     "CarArt_Enamel",
+     "CarArt_Energy"
+    ]
+   },
+   {
+    "triangles": 108,
+    "vertices": 56,
+    "closed": true,
+    "min": [
+     -0.04364,
+     -0.04364,
+     -0.04364
+    ],
+    "max": [
+     0.04364,
+     0.04364,
+     0.04364
+    ],
+    "materials": [
+     "CarArt_Enamel",
+     "CarArt_Energy"
+    ]
+   }
+  ],
+  "Cube": [
+   {
+    "triangles": 900,
+    "vertices": 452,
+    "closed": true,
+    "min": [
+     -0.08728,
+     -0.08728,
+     -0.08728
+    ],
+    "max": [
+     0.08728,
+     0.08728,
+     0.08728
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge"
+    ]
+   },
+   {
+    "triangles": 452,
+    "vertices": 228,
+    "closed": true,
+    "min": [
+     -0.08728,
+     -0.08728,
+     -0.08728
+    ],
+    "max": [
+     0.08728,
+     0.08728,
+     0.08728
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge"
+    ]
+   },
+   {
+    "triangles": 44,
+    "vertices": 24,
+    "closed": true,
+    "min": [
+     -0.08728,
+     -0.08728,
+     -0.08728
+    ],
+    "max": [
+     0.08728,
+     0.08728,
+     0.08728
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge"
+    ]
+   }
+  ],
+  "ShortBlock": [
+   {
+    "triangles": 788,
+    "vertices": 396,
+    "closed": true,
+    "min": [
+     -0.04364,
+     -0.04364,
+     -0.08728
+    ],
+    "max": [
+     0.04364,
+     0.04364,
+     0.08728
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge"
+    ]
+   },
+   {
+    "triangles": 404,
+    "vertices": 204,
+    "closed": true,
+    "min": [
+     -0.04364,
+     -0.04364,
+     -0.08728
+    ],
+    "max": [
+     0.04364,
+     0.04364,
+     0.08728
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge"
+    ]
+   },
+   {
+    "triangles": 44,
+    "vertices": 24,
+    "closed": true,
+    "min": [
+     -0.04364,
+     -0.04364,
+     -0.08728
+    ],
+    "max": [
+     0.04364,
+     0.04364,
+     0.08728
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge"
+    ]
+   }
+  ],
+  "LongBlock": [
+   {
+    "triangles": 1040,
+    "vertices": 522,
+    "closed": true,
+    "min": [
+     -0.04364,
+     -0.04364,
+     -0.130921
+    ],
+    "max": [
+     0.04364,
+     0.04364,
+     0.130921
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge"
+    ]
+   },
+   {
+    "triangles": 516,
+    "vertices": 260,
+    "closed": true,
+    "min": [
+     -0.04364,
+     -0.04364,
+     -0.130921
+    ],
+    "max": [
+     0.04364,
+     0.04364,
+     0.130921
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge"
+    ]
+   },
+   {
+    "triangles": 44,
+    "vertices": 24,
+    "closed": true,
+    "min": [
+     -0.04364,
+     -0.04364,
+     -0.130921
+    ],
+    "max": [
+     0.04364,
+     0.04364,
+     0.130921
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge"
+    ]
+   }
+  ],
+  "Triangle": [
+   {
+    "triangles": 544,
+    "vertices": 274,
+    "closed": true,
+    "min": [
+     -0.04364,
+     -0.04364,
+     -0.08728
+    ],
+    "max": [
+     0.04364,
+     0.041606,
+     0.084375
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge"
+    ]
+   },
+   {
+    "triangles": 274,
+    "vertices": 139,
+    "closed": true,
+    "min": [
+     -0.04364,
+     -0.04364,
+     -0.08728
+    ],
+    "max": [
+     0.04364,
+     0.041298,
+     0.082596
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge"
+    ]
+   },
+   {
+    "triangles": 32,
+    "vertices": 18,
+    "closed": true,
+    "min": [
+     -0.04364,
+     -0.04364,
+     -0.08728
+    ],
+    "max": [
+     0.04364,
+     0.041298,
+     0.082596
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge"
+    ]
+   }
+  ],
+  "DrillHousing": [
+   {
+    "triangles": 560,
+    "vertices": 284,
+    "closed": true,
+    "min": [
+     -0.041022,
+     -0.041022,
+     -0.055464
+    ],
+    "max": [
+     0.041022,
+     0.041022,
+     0.017852
+    ],
+    "materials": [
+     "CarArt_Cream",
+     "CarArt_Enamel",
+     "CarArt_Brass"
+    ]
+   },
+   {
+    "triangles": 368,
+    "vertices": 188,
+    "closed": true,
+    "min": [
+     -0.041022,
+     -0.041022,
+     -0.055464
+    ],
+    "max": [
+     0.041022,
+     0.041022,
+     0.017852
+    ],
+    "materials": [
+     "CarArt_Cream",
+     "CarArt_Enamel",
+     "CarArt_Brass"
+    ]
+   },
+   {
+    "triangles": 140,
+    "vertices": 74,
+    "closed": true,
+    "min": [
+     -0.040149,
+     -0.040149,
+     -0.055464
+    ],
+    "max": [
+     0.040149,
+     0.040149,
+     0.017852
+    ],
+    "materials": [
+     "CarArt_Cream",
+     "CarArt_Enamel",
+     "CarArt_Brass"
+    ]
+   }
+  ],
+  "DrillBit": [
+   {
+    "triangles": 432,
+    "vertices": 218,
+    "closed": true,
+    "min": [
+     -0.032805,
+     -0.034657,
+     0.014361
+    ],
+    "max": [
+     0.036658,
+     0.031747,
+     0.115305
+    ],
+    "materials": [
+     "CarArt_Steel"
+    ]
+   },
+   {
+    "triangles": 90,
+    "vertices": 47,
+    "closed": true,
+    "min": [
+     -0.031691,
+     -0.033213,
+     0.014361
+    ],
+    "max": [
+     0.036658,
+     0.031747,
+     0.115305
+    ],
+    "materials": [
+     "CarArt_Steel"
+    ]
+   },
+   {
+    "triangles": 24,
+    "vertices": 14,
+    "closed": true,
+    "min": [
+     -0.036658,
+     -0.031747,
+     0.014361
+    ],
+    "max": [
+     0.036658,
+     0.031747,
+     0.115305
+    ],
+    "materials": [
+     "CarArt_Steel"
+    ]
+   }
+  ],
+  "SpeedBumpMid": [
+   {
+    "triangles": 164,
+    "vertices": 84,
+    "closed": true,
+    "min": [
+     -0.4,
+     0.0,
+     -0.58
+    ],
+    "max": [
+     0.4,
+     1.0,
+     0.58
+    ],
+    "materials": [
+     "CarArt_BumpPaint",
+     "CarArt_BumpBase"
+    ]
+   },
+   {
+    "triangles": 56,
+    "vertices": 30,
+    "closed": true,
+    "min": [
+     -0.4,
+     0.0,
+     -0.58
+    ],
+    "max": [
+     0.4,
+     1.0,
+     0.58
+    ],
+    "materials": [
+     "CarArt_BumpPaint",
+     "CarArt_BumpBase"
+    ]
+   },
+   {
+    "triangles": 24,
+    "vertices": 14,
+    "closed": true,
+    "min": [
+     -0.4,
+     0.0,
+     -0.5
+    ],
+    "max": [
+     0.4,
+     1.0,
+     0.5
+    ],
+    "materials": [
+     "CarArt_BumpPaint",
+     "CarArt_BumpBase"
+    ]
+   }
+  ],
+  "SpeedBumpEnd": [
+   {
+    "triangles": 206,
+    "vertices": 105,
+    "closed": true,
+    "min": [
+     0.0,
+     0.0,
+     -0.58
+    ],
+    "max": [
+     0.3,
+     1.0,
+     0.58
+    ],
+    "materials": [
+     "CarArt_BumpPaint",
+     "CarArt_BumpBase"
+    ]
+   },
+   {
+    "triangles": 86,
+    "vertices": 45,
+    "closed": true,
+    "min": [
+     0.0,
+     0.0,
+     -0.58
+    ],
+    "max": [
+     0.3,
+     1.0,
+     0.58
+    ],
+    "materials": [
+     "CarArt_BumpPaint",
+     "CarArt_BumpBase"
+    ]
+   },
+   {
+    "triangles": 24,
+    "vertices": 14,
+    "closed": true,
+    "min": [
+     0.0,
+     0.0,
+     -0.5
+    ],
+    "max": [
+     0.3,
+     1.0,
+     0.5
+    ],
+    "materials": [
+     "CarArt_BumpPaint",
+     "CarArt_BumpBase"
+    ]
+   }
+  ],
+  "Handwheel": [
+   {
+    "triangles": 2176,
+    "vertices": 1120,
+    "closed": true,
+    "min": [
+     -0.221,
+     -0.013125,
+     -0.221
+    ],
+    "max": [
+     0.221,
+     0.013125,
+     0.221
+    ],
+    "materials": [
+     "CarArt_Enamel",
+     "CarArt_Wood",
+     "CarArt_Energy"
+    ]
+   },
+   {
+    "triangles": 1088,
+    "vertices": 576,
+    "closed": true,
+    "min": [
+     -0.221,
+     -0.011951,
+     -0.221
+    ],
+    "max": [
+     0.221,
+     0.0122,
+     0.221
+    ],
+    "materials": [
+     "CarArt_Enamel",
+     "CarArt_Wood",
+     "CarArt_Energy"
+    ]
+   },
+   {
+    "triangles": 608,
+    "vertices": 336,
+    "closed": true,
+    "min": [
+     -0.221,
+     -0.0135,
+     -0.221
+    ],
+    "max": [
+     0.221,
+     0.0135,
+     0.221
+    ],
+    "materials": [
+     "CarArt_Enamel",
+     "CarArt_Wood",
+     "CarArt_Energy"
+    ]
+   }
+  ],
+  "PropTyreStack": [
+   {
+    "triangles": 1536,
+    "vertices": 776,
+    "closed": true,
+    "min": [
+     -0.244125,
+     -0.005738,
+     -0.244125
+    ],
+    "max": [
+     0.442752,
+     0.385738,
+     0.249125
+    ],
+    "materials": [
+     "CarArt_Rubber",
+     "CarArt_Brass"
+    ]
+   },
+   {
+    "triangles": 896,
+    "vertices": 456,
+    "closed": true,
+    "min": [
+     -0.242841,
+     -0.005738,
+     -0.244928
+    ],
+    "max": [
+     0.442601,
+     0.385738,
+     0.249125
+    ],
+    "materials": [
+     "CarArt_Rubber",
+     "CarArt_Brass"
+    ]
+   },
+   {
+    "triangles": 384,
+    "vertices": 200,
+    "closed": true,
+    "min": [
+     -0.244125,
+     -0.014167,
+     -0.244125
+    ],
+    "max": [
+     0.456569,
+     0.394167,
+     0.249125
+    ],
+    "materials": [
+     "CarArt_Rubber",
+     "CarArt_Brass"
+    ]
+   }
+  ],
+  "PropWheelSign": [
+   {
+    "triangles": 776,
+    "vertices": 402,
+    "closed": true,
+    "min": [
+     -0.1,
+     0.0,
+     -0.08
+    ],
+    "max": [
+     0.54,
+     1.0,
+     0.08
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge",
+     "CarArt_Rubber",
+     "CarArt_Brass",
+     "CarArt_Enamel"
+    ]
+   },
+   {
+    "triangles": 424,
+    "vertices": 226,
+    "closed": true,
+    "min": [
+     -0.1,
+     0.0,
+     -0.08
+    ],
+    "max": [
+     0.54,
+     1.0,
+     0.08
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge",
+     "CarArt_Rubber",
+     "CarArt_Brass",
+     "CarArt_Enamel"
+    ]
+   },
+   {
+    "triangles": 296,
+    "vertices": 162,
+    "closed": true,
+    "min": [
+     -0.1,
+     0.0,
+     -0.08
+    ],
+    "max": [
+     0.54,
+     1.0,
+     0.08
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge",
+     "CarArt_Rubber",
+     "CarArt_Brass",
+     "CarArt_Enamel"
+    ]
+   }
+  ],
+  "PropStoneBlocks": [
+   {
+    "triangles": 396,
+    "vertices": 204,
+    "closed": true,
+    "min": [
+     -0.358735,
+     0.0,
+     -0.204691
+    ],
+    "max": [
+     0.513848,
+     0.54,
+     0.258643
+    ],
+    "materials": [
+     "CarArt_Sandstone",
+     "CarArt_SandstoneEdge"
+    ]
+   },
+   {
+    "triangles": 180,
+    "vertices": 96,
+    "closed": true,
+    "min": [
+     -0.358735,
+     0.0,
+     -0.204691
+    ],
+    "max": [
+     0.513247,
+     0.54,
+     0.258042
+    ],
+    "materials": [
+     "CarArt_Sandstone",
+     "CarArt_SandstoneEdge"
+    ]
+   },
+   {
+    "triangles": 132,
+    "vertices": 72,
+    "closed": true,
+    "min": [
+     -0.358735,
+     0.0,
+     -0.204691
+    ],
+    "max": [
+     0.513247,
+     0.54,
+     0.258042
+    ],
+    "materials": [
+     "CarArt_Sandstone",
+     "CarArt_SandstoneEdge"
+    ]
+   }
+  ],
+  "PropOreCart": [
+   {
+    "triangles": 1968,
+    "vertices": 1000,
+    "closed": true,
+    "min": [
+     -0.26,
+     0.0,
+     -0.2025
+    ],
+    "max": [
+     0.26,
+     0.5325,
+     0.2025
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge",
+     "CarArt_Rubber",
+     "CarArt_Brass",
+     "CarArt_Sandstone",
+     "CarArt_SandstoneEdge"
+    ]
+   },
+   {
+    "triangles": 1072,
+    "vertices": 552,
+    "closed": true,
+    "min": [
+     -0.26,
+     0.00188,
+     -0.2025
+    ],
+    "max": [
+     0.26,
+     0.5325,
+     0.2025
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge",
+     "CarArt_Rubber",
+     "CarArt_Brass",
+     "CarArt_Sandstone",
+     "CarArt_SandstoneEdge"
+    ]
+   },
+   {
+    "triangles": 560,
+    "vertices": 296,
+    "closed": true,
+    "min": [
+     -0.26,
+     0.0,
+     -0.2025
+    ],
+    "max": [
+     0.26,
+     0.5325,
+     0.2025
+    ],
+    "materials": [
+     "CarArt_Wood",
+     "CarArt_WoodEdge",
+     "CarArt_Rubber",
+     "CarArt_Brass",
+     "CarArt_Sandstone",
+     "CarArt_SandstoneEdge"
+    ]
+   }
+  ]
+ }
+}

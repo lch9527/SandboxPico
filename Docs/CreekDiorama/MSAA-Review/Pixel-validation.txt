@@ -1,0 +1,15 @@
+Level1 OFF repeat: changed=0/1500000 mae_8bit=0.000000 max=0 bounds=1500,1000-0,0
+Level1 4x repeat: changed=147/1500000 mae_8bit=0.000062 max=21 bounds=218,52-1354,792
+Level1 OFF-vs-4x: changed=128521/1500000 mae_8bit=0.930711 max=206 bounds=1,0-1499,999
+Level2 OFF repeat: changed=0/1500000 mae_8bit=0.000000 max=0 bounds=1500,1000-0,0
+Level2 4x repeat: changed=155/1500000 mae_8bit=0.000057 max=20 bounds=220,125-1407,822
+Level2 OFF-vs-4x: changed=132297/1500000 mae_8bit=0.986963 max=213 bounds=70,0-1499,999
+Level3 OFF repeat: changed=0/1500000 mae_8bit=0.000000 max=0 bounds=1500,1000-0,0
+Level3 4x repeat: changed=137/1500000 mae_8bit=0.000041 max=2 bounds=168,5-1481,746
+Level3 OFF-vs-4x: changed=145672/1500000 mae_8bit=1.044439 max=212 bounds=98,0-1499,999
+Level4 OFF repeat: changed=0/1500000 mae_8bit=0.000000 max=0 bounds=1500,1000-0,0
+Level4 4x repeat: changed=112/1500000 mae_8bit=0.000032 max=2 bounds=122,264-1455,902
+Level4 OFF-vs-4x: changed=144259/1500000 mae_8bit=1.060966 max=204 bounds=48,0-1499,999
+Level5 OFF repeat: changed=0/1500000 mae_8bit=0.000000 max=0 bounds=1500,1000-0,0
+Level5 4x repeat: changed=75/1500000 mae_8bit=0.000021 max=1 bounds=64,185-371,335
+Level5 OFF-vs-4x: changed=64880/1500000 mae_8bit=0.588026 max=171 bounds=0,0-1342,999

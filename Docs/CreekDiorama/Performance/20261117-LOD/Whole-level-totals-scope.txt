@@ -1,0 +1,8 @@
+Scope of Whole-level-totals.json
+Read-only asset inventory, 2026-11-17.
+Before: enabled, active, non-EditorOnly static MeshRenderers, selecting LOD0 from native LODGroups instead of adding all their alternatives.
+After: replace catalog-supported foliage and display-base renderers with their LOD1 meshes; all other objects retain the same geometry as Before.
+Not a Quest per-frame draw count. No frustum/occlusion culling, runtime vehicles, stereo multiplier or extra render passes included.
+The generated foliage system currently has LOD0 and LOD1 only. Its last transition is zero, so it has no additional distant foliage tier or distance-cull threshold. Some unrelated props have their own LOD2.
+The water-surface counts are only the Living Water shader mesh, not contact foam/other water effects.
+Current Level4 excludes 2256 triangles belonging to native prop LOD1/LOD2 alternatives that are serialized enabled, avoiding simultaneous counting of multiple tiers.

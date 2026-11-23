@@ -1,0 +1,387 @@
+SANDBOX FIRST-ENTRY INTRO - HANDOVER
+Rewritten: 2026-11-15, America/New_York
+
+WHAT IT IS
+The first time a player enters Level 1 in the campaign, a ~42 second intro plays
+before they get control. It replaced the earlier "Almost" intro (a Level 5 stage
+with four cars, authored in Blender), which was deleted from the Unity project on
+2026-11-15 at the user's request. Nothing here is authored in Blender and there
+is no baked clip: the whole intro is runtime code on the real Level 1.
+
+  1. Darken       The level and the kit are hidden; the room fades to 12 %.
+  2. Orb          A blue spark with a soft fog halo makes one and a half
+                  shrinking loops across the player's view and settles where the
+                  building core sits on the bench. It never leaves the view cone.
+                  Twelve parts hang adrift in the dark along its way: they can
+                  only be seen where the spark's light reaches them, and the
+                  ones it flies straight through are pushed aside by its wake.
+  3. Core birth   The core swells out of the spark (0 -> 1.45 -> 0.9 -> 1), the
+                  fog draws in and clears, a blue glow stays on the core.
+  4. First car    The pull: space twists shut around the core like a black hole
+                  (see THE PULL below) and stays open while it builds.
+                  A short block, a long block and two wheels come out of the
+                  dark BEHIND the core, unseen until its light reaches them,
+                  and snap on one per beat with the game's attach feedback.
+                  The result makes no sense: a mast, a bar sticking out
+                  sideways, a wheel lying on the bar, a wheel for a nose.
+  5. Launch       The track brightens out of darkness, a beacon marks its start,
+                  and the car is sent there with the game's launch mote effect.
+  6. First run    Real physics, untouched. It topples, slides about a metre
+                  down the bridge and comes to rest by itself (about 4 s).
+  7. Return       The core lets go. Nothing is pushed: the parts stay where the
+                  car stopped and dissolve. The core returns to the start as
+                  blue motes.
+  8. Second car   The pull again, at the start. Nearly the starter car: the
+                  long block ahead of the core and two wheels, but both wheels
+                  on the same side (the viewer's), front and back.
+  9. Second run   Real physics, untouched. It rolls on its wheeled side, drags
+                  on the other, drifts across the bridge and drops off the far
+                  edge about two thirds of the way down (about 2 s). The run
+                  ends when it leaves the level's test bounds, under the water.
+ 10. Home         The core flies back to the player; the building area appears
+                  and the room returns to normal.
+ 11. Starter car  One last pull: the level's own starter car (long block and two
+                  wheels) assembles on the core; the spare parts settle.
+ 12. Turn         The rotation disc whirls the build through two full turns in
+                  1.8 s, spinning up and settling, in the game's 5-degree steps,
+                  and ends exactly where it began.
+ 13. Title        "Your turn" (SandboxFirstEntryIntro.TitleText), then control.
+
+THE PULL (user requirement, 2026-11-15: "space distortion ... like a black hole")
+When the core gathers parts, a disc of space around it is twisted: what lies
+behind is swirled about the core and bent as light is bent past a heavy mass,
+with a black well in the middle, a thin ring of trapped light and faint matter
+spiralling in. It replaced three blue rings closing in on the core, which the
+user did not like. It opens in 0.6 s, swells on every build beat and shuts just
+after the last part lands. Parts in flight are smeared around the well; the core
+and every part that has landed are drawn untouched in front of it.
+
+SIZE (user direction, 2026-11-15, drawn on a still of the pull at the track).
+The first version was too large. The user marked three circles around the core:
+  red     the black area                 0.133 m   1.9 part widths
+  yellow  out to here, the twist         0.220 m   3.2 part widths
+  green   out to here, less twist        0.383 m   5.5 part widths
+(16, 26.5 and 46.2 px on the still, at 120.7 px a metre; a part is 0.0698 m wide
+at the track.) These are PullBlackUnits, PullTwistUnits and PullUnits in
+SandboxFirstEntryIntro, in part widths, so the pull is the same size against
+the build beside the player, where a part is 0.0349 m wide: twist to 11 cm,
+disc 19 cm. Beyond the twist proper only _LensWeak (0.1) of the twist is left,
+fading to nothing at the rim.
+The black area beside the player is the exception. At 1.9 part widths (6.6 cm)
+the user still found it too big on screen and drew a second red circle, on a
+still of the last build: 78 px where the black area had been 139 px. So there
+it is NearPullBlackUnits, 1.07 part widths (3.7 cm): it only just clears the
+core. The twist and the disc beside the player were not changed.
+An edit-mode test pins all of these numbers.
+
+MOTION (user direction, 2026-11-15). The black hole has to keep playing until it
+disappears. The first version opened, then stood almost still (only a small
+swell on each beat and faint moving arms) until it shut. Now what is seen in the
+twist flows around the black area for as long as the lens is open, faster the
+nearer it is: _LensFlow (2.4 rad a cycle at the black area) and _LensFlowRate
+(0.45 cycles a second) on the shader. It is done by cross-fading two copies of
+the picture half a cycle apart, so the flow never winds the picture up; that
+costs a second texture read for each pixel of the disc.
+
+THE PULL IS NOW A BLUEPRINT AND TETHERS (user direction, 2026-11-16). This
+replaces everything about the black hole below (the lens, its sizes, motion,
+the part stretch). The user found the black hole made the whole level go dark
+on the headset (that was the full-frame bending in the 20:46 build) and asked
+for a 3D effect, not billboards, in the style of the blueprint and Ultrahand
+look of Zelda: Tears of the Kingdom, whose purpose is to pull each part from
+the dark to the core. SandboxSpaceLens.cs and its shader were deleted.
+  Blueprint   When a pull starts, a see-through copy of every part of the build
+              stands at its place on the core (SandboxIntroEffects.Blueprint),
+              drawn with Resources/SandboxHologram.shader: glowing edges, a
+              faint body, bands of light climbing through it. It fades in over
+              two beats; each copy disappears as its real part lands
+              (FillSlot); whatever is left is cleared after the last landing.
+  Tether      For each part, a 3D tube of light (SandboxIntroTether, mesh
+              rebuilt each frame; Resources/SandboxTether.shader) reaches out
+              from the core to the part in the dark over TetherReach (3/4 of a
+              beat), then reels it in along its flight with pulses running
+              toward the core, and is cut when it lands. Thickness in part
+              widths: NearTetherUnits (0.14) beside the player, FarTetherUnits
+              (0.3) at the track so it reads at 7 m.
+  Grab        While held, the part carries an extra glowing-edge layer from the
+              same hologram shader over its own look (Hold / Release).
+Everything is light added over what is behind, so over passthrough it reads as
+light in the room. Nothing is drawn over the whole view any more.
+Known: in the first build the parts come from behind the core, almost along
+the line of sight, so the tethers there are short on screen.
+
+(Superseded) NO BACKGROUND DISTORTION, NO BLACK AREA (user direction, late 2026-11-15; this
+supersedes SIZE and MOTION above as far as the bending and the black go). The
+user did not want the pull to distort the background at all, only "the track
+between the core and the part that is moving to the core", and then asked for
+the black area to go too. So now:
+  - SandboxSpaceLens.BendFrame is false: no frame copy, no intermediate
+    texture, nothing behind the pull is bent. The disc draws only its thin
+    ring of light and the faint spiral ("Plain" pass). _LensBlack on the
+    shader is 0; 1 brings the black area back.
+  - Each part the core pulls in is itself stretched toward the core while it
+    flies: its near side is drawn out to a thin tip along the line between
+    the two (SandboxIntroLit.shader, _StretchFrom/_StretchTo, driven from
+    Attract() through SandboxIntroEffects.Stretch; PullStretch is how far).
+    Parts in a lit scene wear the same shader with _Always (Stretchy()).
+  - In the first build the parts come from behind the core, almost straight
+    along the line of sight, so their stretch is foreshortened and hard to
+    see there. At the track it reads clearly.
+The bending code is all still there, switched off.
+
+It is a real post-process, confined to that disc:
+  Runtime/SandboxSpaceLens.cs       hands a render pass to the camera's renderer
+                                    on frames in which the lens is open. The
+                                    pass copies the finished frame, marks the
+                                    solid parts in the stencil buffer (bit 128)
+                                    and redraws the disc from the copy.
+  Resources/SandboxSpaceLens.shader does the bending. One disc for both eyes,
+                                    facing the head.
+No renderer asset or pipeline setting was changed; the pass asks for an
+intermediate texture only while the lens is open.
+
+WHAT IT CANNOT DO: bend the real room. Passthrough is composited by the headset
+underneath the frame and never reaches the app. Over passthrough the lens bends
+only what is virtual (the level, parts, glows); the well is opaque black; and
+where the bent image holds nothing virtual the room shows through, unbent. In
+the dark first build that leaves the well, the ring, the spiral and the bent
+parts and glow; at the track and in the last build the whole level swirls.
+
+SEATED VIEW CONE (user requirement, 2026-11-15)
+This is a seated experience: the player's line of sight covers about 100 degrees
+without turning. Anything that flies near the player must stay inside that cone.
+"Straight ahead" is the line from the player to the core. The orb, the parts the
+core attracts beside the player and the starter-car parts are all placed with
+InView(azimuth, elevation, distance) and kept within ViewHalfAngle (40 degrees)
+either side of straight ahead, which leaves room for their glow. The first draft
+flew the orb a full circle around the player; do not bring that back. The track
+start sits about 40 degrees left of straight ahead in Level 1's own layout.
+
+The tracked head is never moved. Attention is led by light, motion and positioned
+sound: the beacon and the slowed mote stream lead the eye to the track (about
+7 m away, down and to the left), the return stream and the brightening room lead
+it back.
+
+WHERE THE CODE IS (Assets/MetaHackthone)
+  Runtime/SandboxFirstEntryIntro.cs   The sequencer. Gate (Eligible, TryBegin),
+                                      lock, the thirteen beats as one coroutine,
+                                      Restore. Seen key: Sandbox.Intro.Core.v1.
+  Runtime/SandboxIntroCars.cs         The two car recipes, built from real parts
+                                      with the game's joining rules; placement,
+                                      release, freeze, detach. Also the visual-
+                                      only part copy (SandboxIntroGhost).
+  Runtime/SandboxIntroEffects.cs      Room and track dimming, orb, fog, core
+                                      glow, the pull's timing, arrival rings,
+                                      streaks, positioned sounds.
+  Runtime/SandboxSpaceLens.cs         The pull's render pass (see THE PULL).
+  Resources/SandboxSpaceLens.shader   The pull's bending, well, ring, spiral.
+  Resources/SandboxFog.shader         Soft billboard used for the fog halo.
+  Resources/SandboxIntroLit.shader    Parts that exist only in the intro's light:
+                                      out of its reach nothing is drawn, not even
+                                      a silhouette over the darkened room.
+  Editor/SandboxIntroMenu.cs          MetaHackthone > Cinematic > Reset First
+                                      Entry Intro / Play Intro Now.
+  Tests/EditMode/SandboxIntroTests.cs, Tests/PlayMode/SandboxIntroPlaybackTests.cs
+
+Hooks added to gameplay code (additive; normal play is unchanged):
+  SandboxRewardPresentation.RequestRoomBrightness(owner, value) and
+  MetaRewardPassthrough: any owner may dim the passthrough layer; the darkest
+  live request wins and 1 clears it.
+  SandboxReturnEffect.MoteColor / Tinted / BodyColor / EdgeColor (+ _Color and
+  _Edge on SandboxDissolve.shader): gold by default, blue for the core's travel.
+  DownhillController.ColliderPoints / SetTestClock / RestoreClock are internal.
+  WorkshopBootstrap.AreaAligned.
+  CreekDiorama/Shaders/CreekHorizon.shader has a _Brightness scalar (default 1)
+  so the horizon can be brought out of darkness with the rest of the level.
+
+HOW IT WORKS
+The player's kit is never touched. At the start it is copied as visual-only
+"ghosts", hidden, and it is only shown again at the end of beat 11, when the
+ghosts are swapped for the real parts in the same poses. Beat 12 moves the real
+parts and writes their saved poses back exactly.
+
+The two failing cars are real parts in the intro's own AssemblyWorld, built up
+front above the track and kept weightless until their run. A run releases them
+exactly as a test run does and uses the same miniature physics clock
+(SetTestClock). After that the intro never touches a running car: no push, no
+brake, no freeze. A run ends (RunCar) when the core has stayed under RestSpeed
+and RestSpin for RestSeconds, or when it leaves the level's TestBounds, which
+is the game's own failure rule; only then, as in the game, the car is held
+where it went out so it does not fall on through the room. RunSeconds is just
+a ceiling in case a car never settles. How each run ended is kept in RunEnded
+and RunTime. When the core lets go (Abandon) its connections are removed and
+that is all: what it leaves behind keeps whatever motion physics gives it and
+dissolves 0.6 s later.
+
+Everything the intro creates lives under one scene object, "Sandbox intro".
+Restore() destroys it, restores the physics clock, room brightness, hidden kit,
+level visibility and the disabled behaviours, and is safe to call at any moment
+(it runs on disable and destroy). The seen key is written only after the whole
+intro has played, so an interrupted intro plays again next time.
+
+It plays only when: campaign mode, not design mode, Level 1, key unset, and the
+level's starter car is built. Tests set SandboxFirstEntryIntro.Suppressed (see
+SandboxIntroSuppression.cs in both play-mode test folders); without that the
+intro hides the kit and breaks every other campaign fixture.
+
+TUNING
+  Timings            the Wait/Run durations inside Sequence(), beat by beat.
+  Room darkness      SandboxIntroEffects.Dark (0.12).
+  Orb path           OrbAt() in beat 2: loops of +/-40 degrees wide and +/-13
+                     high that shrink to nothing while the orb comes in from
+                     2.6 m. phase sets the number of loops (1.5), the exponent on
+                     e how front-loaded the motion is.
+  Final turn         TurnDegrees (720) and TurnSeconds (1.8); the easing is in
+                     beat 12.
+  Build tempo        BuildBeat (60/180 s): the pull's rings and every landing
+                     in all three builds sit on this beat. PartFlight (0.6 s) is
+                     how long a part is in the air; flights overlap.
+  Parts adrift       AdriftParts (12) and AdriftScale; placed along OrbAt() in
+                     beat 2, every third one directly on the path so it gets
+                     pushed. Push strength and reach are in
+                     SandboxIntroEffects.Drift / PushRadius.
+  The light          SandboxIntroEffects.Light / LightReach / LightStrength:
+                     the single point that Resources/SandboxIntroLit.shader
+                     lights parts by (the spark, then the core).
+  Fog                FogSize set in beats 2-3; capped at 0.7 x distance to the
+                     eye in SandboxIntroEffects.Tick so it never fills the view.
+  The pull           Sizes are in part widths in SandboxFirstEntryIntro:
+                     PullBlackUnits (1.9, black area at the track),
+                     NearPullBlackUnits (1.07, black area beside the player),
+                     PullTwistUnits (3.15, end of the twist proper), PullUnits
+                     (5.5, the whole disc). See SIZE above. On the shader:
+                     _LensTwist (4.5 rad at the black area); _LensWeak (0.1,
+                     the share of the twist left in the outer range); _LensFlow
+                     and _LensFlowRate (the turning, see MOTION above);
+                     _LensLight, _LensMatter. _LensWell and _LensEdge are set
+                     from the sizes for each pull; their defaults are the pull
+                     at the track. Opening and closing times are LensOpens and
+                     LensShuts in SandboxIntroEffects; the swell on each beat
+                     is in SandboxIntroEffects.Bend.
+  Arrival rings      The blue rings that remain (the core's birth, the beacon at
+                     the track start, the core arriving) are fx.Wave calls in
+                     Sequence(); they are not part of the pull.
+  Car layouts        SandboxIntroCars.Recipe. Rows are (kind, target part,
+                     centre in building units, Euler rotation, target face).
+  Car two's wheels   SandboxIntroCars.WheelSide. 1 (now) puts both wheels on
+                     the viewer's side: they are plain to see, and the car
+                     drifts away from them and drops off the FAR edge of the
+                     bridge, where the bridge hides the fall. -1 mirrors it:
+                     the car hides its own wheels on the way down but falls off
+                     the NEAR edge into the river in full view. Both were run
+                     on 2026-11-15; the paths are mirror images.
+  Run endings        RestSpeed, RestSpin, RestSeconds, MinRun and the ceiling
+                     RunSeconds in SandboxFirstEntryIntro.
+  Colours            SandboxIntroEffects.Blue / Pale / Deep.
+
+USER DIRECTION SO FAR (2026-11-15), in the order it was given
+  - Seated view: nothing flies outside about 100 degrees (see above).
+  - Final turn: fast, with acceleration and deceleration, two full turns.
+  - Parts exist in the dark during the spark's flight, seen only by its light,
+    and it pushes some of them away.
+  - The first build's parts emerge from the dark behind the core, not in from
+    outside the view. (Applied to the starter-car build too.)
+  - Building is fast, about 180 BPM.
+  - The one-wheel car that only sat on the track looked dumb and did not move:
+    removed. The nonsense stack is now the FIRST car; the second is a two-wheel
+    car like the starter car but with both wheels on one side. The starter car
+    in the building area stays as the level makes it.
+  - No force when a car fails: let it stop. (The first version threw the
+    dropped parts sideways off the track and froze each car on a timer.)
+  - The blue rings of the attraction are replaced by a space distortion that
+    looks like a black hole, done as a post-process (see THE PULL).
+  - The black hole was too large: sized to three circles the user drew on a
+    still (see SIZE under THE PULL).
+  - Its animation must keep playing until it disappears (see MOTION), and the
+    black area beside the player was still too big: sized to a second red
+    circle the user drew (see SIZE).
+
+Lessons already paid for:
+  - A car whose single wheel lay flat under its nose simply sat at the start.
+    The user found it dumb; a failing car has to move.
+  - A car with wheels on one side only does not stall: it reaches about
+    2.3 m/s, drifts toward its wheel-less side and leaves the 0.8 m bridge.
+  - Copy a part's looks from AssemblyPart.VisualRenderers only. Outline helpers
+    ("Stencil silhouette") are added under the renderers later and must not be
+    copied.
+  - The space lens keeps the core and landed parts solid with a stencil mask
+    drawn WITHOUT a depth test. With one, the core came out striped in the last
+    build: the building area's see-through guides write depth in front of it.
+  - The steering rim (found through the intro's final turn, fixed 2026-11-15; not
+    an intro bug). Level 1's layout has the rim's visible disc moved 6.6 cm
+    forward and 4.8 cm down from its wheel, to sit under the core, and its grid
+    pad 6.4 cm behind the core. So the grab zones were not where the rim is
+    drawn (it could not be grabbed), and the pad, turning about its own middle,
+    swung the rim out from under the core whenever the build turned. Now
+    DownhillRotationWheel moves the wheel to its rim on Awake, and
+    DownhillPresentation.FollowCore carries the pad around the core. The level
+    data was left as it is. The intro tests check the rim after every run.
+    Later the same evening another session re-saved Level 1 with the rim's
+    offset removed and the pad moved, which left the rim 2.9 cm off the core
+    again. FollowCore now also puts the wheel straight under the core every
+    frame: a layout decides the rim's height, never where it is centred.
+  - Stills taken by the full-run test at 8x can show a thin polygon ring across
+    the first pull. It is the core-birth ring, which runs on real time and so
+    outlives its beat only at that speed.
+  - The title is placed in the world just above the car, facing the player. Head-
+    locked at 1.2 m it sat behind the car the player is looking down at and was
+    half hidden.
+  - The level's clouds and horizon use custom shaders. The track dimmer knows
+    their colour names (_Tint, _ShadowTint, _SunTint) and the horizon's
+    _Brightness; a new custom shader in a level needs the same treatment or it
+    will pop in at full brightness. The water's sparkle pattern has no property
+    and stays faintly visible while the track is dark.
+
+REVIEWING
+  Editor     Run the play-mode tests in SandboxIntroPlaybackTests. The full-run
+             test writes stills of each beat to ArtSource/SandboxIntro/
+             CoreIntro-*.png (the intro clock runs 8x there; rings from one beat
+             can linger into the next still, which does not happen at normal
+             speed). Or enter Play mode in the campaign's Level 1 and use
+             MetaHackthone > Cinematic > Play Intro Now.
+  Video      Docs/SandboxIntro-playthrough.mp4 is a silent 720p recording of the
+             whole intro from the desktop review camera. The file was last
+             recorded at 22:00 on 2026-11-15 (43 s, 1249 frames, encoded at
+             29 frames a second because the recording ran at 29.24), with the
+             swapped cars, the black-hole pull at its final sizes and the
+             steering-rim fix. To make a new one, run
+             the play-mode test RecordPlaythroughForReview by name (it is
+             Explicit, so it never runs with the suite). It plays the intro at a
+             real 30 frames a second and writes every frame to
+             %TEMP%/MetaHackthoneIntroRecording, logging the exact rate. Encode
+             them with Blender's built-in ffmpeg:
+               blender -b --factory-startup --python Docs/SandboxIntroEncodeVideo.py
+                 -- <frames folder> <output.mp4> 30
+             Do not use Time.captureFramerate for this: the intro runs on
+             unscaled time, which keeps real time, so the physics runs would
+             play at a different speed from everything else. Blender must be set
+             to the Standard view transform (the script does this) or the video
+             comes out washed.
+  Headset    Build with MetaHackthone > Build Quest APK, install, and clear the
+             app's data so the seen key is gone. Clearing data also wipes saved
+             campaign progress on the headset.
+
+NOT VERIFIED WITHOUT A HEADSET
+The space lens has only been run in the editor (one eye, no passthrough). On
+the Quest check three things during a pull: that the room is still visible
+around the disc (the camera renders through an intermediate texture while the
+lens is open, and the frame's alpha has to survive that for passthrough to
+show); that both eyes agree; and the frame rate (a full-frame copy per eye).
+If the room goes black or the cost is too high, set SandboxSpaceLens.BendFrame
+to false: it then skips the copy and the intermediate texture and draws its
+"Plain" pass, the same well, ring and spiral blended over the frame with no
+bending.
+How dark 12 % passthrough looks, the fog's look and fill-rate cost, whether the
+cars read at 7 m, spatial sound levels, comfort of the orb's path, and the wait
+for the level to be aligned to the head before the intro locks input.
+
+THE OLD INTROS ARE GONE
+Removed on 2026-11-15 at the user's request, and never checked in to Plastic, so
+they cannot be recovered from version control:
+  - the "Almost" intro's Blender sources and backups (ArtSource/SandboxIntro,
+    which now holds only the CoreIntro review stills) and its Blender scripts
+    (Tools/SandboxIntro);
+  - the older 8 second Timeline demo (Assets/MetaHackthone/Cinematics,
+    Assets/SandboxIntroEditor) and Docs/SandboxIntroWorkflow.md.
+The Timeline package was only in the manifest for that demo and is not listed
+any more.

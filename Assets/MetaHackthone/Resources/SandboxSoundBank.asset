@@ -1,0 +1,346 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e53889db014033e45ae89f6081b42f00, type: 3}
+  m_Name: SandboxSoundBank
+  m_EditorClassIdentifier: PhysicalAssembly.Runtime::PhysicalAssembly.SandboxSoundBank
+  Sounds:
+  - Cue: 0
+    Clips:
+    - {fileID: 8300000, guid: e39b51207fedf0a468c2826fce1ca036, type: 3}
+    - {fileID: 8300000, guid: 201389c87dcb4d84487c16e23e137fdb, type: 3}
+    - {fileID: 8300000, guid: d94826ee760fa684db038499476ee5c3, type: 3}
+    - {fileID: 8300000, guid: 36ebbfbc6f9f6b241a17599281278f0f, type: 3}
+    Bus: 0
+    Volume: 0.12
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 1
+    Clips:
+    - {fileID: 8300000, guid: baefc129e69a8484ea3efb4215c87aac, type: 3}
+    - {fileID: 8300000, guid: 999948a37eff4e442b8d99bd42cf7ecd, type: 3}
+    - {fileID: 8300000, guid: 5e02f1899203551408f044f05c45dbd1, type: 3}
+    - {fileID: 8300000, guid: a29b83c0c0e392f4594db11ee0efb1a0, type: 3}
+    Bus: 0
+    Volume: 0.42
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 3
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 2
+    Clips:
+    - {fileID: 8300000, guid: 0f1efd4aae0fb7a40a9a5652d71b45ab, type: 3}
+    - {fileID: 8300000, guid: cef0d6d80106aea44a10b6da40529eaa, type: 3}
+    - {fileID: 8300000, guid: d6753bc4e991a074e9148159ba4e0d16, type: 3}
+    - {fileID: 8300000, guid: 1e6aac6aa3b31ab468d6aa54e71a5557, type: 3}
+    Bus: 0
+    Volume: 0.23
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 3
+    Clips:
+    - {fileID: 8300000, guid: 34979af193163d84e9e5f2f5890ff2d0, type: 3}
+    - {fileID: 8300000, guid: de121c0600124394d9ea74e0498f2667, type: 3}
+    - {fileID: 8300000, guid: 3b3b9518c0b2a494090eda600c458dae, type: 3}
+    - {fileID: 8300000, guid: 93e615ba6b4ff254c840e8a994f4f208, type: 3}
+    Bus: 0
+    Volume: 0.16
+    PitchVariation: 0.035
+    Cooldown: 0.25
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 4
+    Clips:
+    - {fileID: 8300000, guid: 10ec4e5e4065c9d48adab00a28617535, type: 3}
+    - {fileID: 8300000, guid: 564c940aadc1b134894b2b5fd48f231b, type: 3}
+    - {fileID: 8300000, guid: 064c25541e266194b8fd95d619da4204, type: 3}
+    - {fileID: 8300000, guid: 12c0468117e48ea4e814fc1715b6c4b3, type: 3}
+    Bus: 0
+    Volume: 0.17
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 5
+    Clips:
+    - {fileID: 8300000, guid: 628ace4d50445314e99d6e3d6e0f3d63, type: 3}
+    - {fileID: 8300000, guid: 13f7ed0d3ea94c6449022edfc5085fe8, type: 3}
+    - {fileID: 8300000, guid: d7fa5abcd56bc0549bab5fa50ee9f8b7, type: 3}
+    - {fileID: 8300000, guid: da35734216954a948bff2492e3aeb118, type: 3}
+    Bus: 0
+    Volume: 0.14
+    PitchVariation: 0.035
+    Cooldown: 0.035
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 6
+    Clips:
+    - {fileID: 8300000, guid: 52dd5b23a4c285b42ab29c68aff89978, type: 3}
+    Bus: 0
+    Volume: 0.24
+    PitchVariation: 0
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 0.25
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 7
+    Clips:
+    - {fileID: 8300000, guid: dac71827ef58fc84bbec0c0525555bf4, type: 3}
+    Bus: 0
+    Volume: 0.24
+    PitchVariation: 0
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 0.25
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 8
+    Clips:
+    - {fileID: 8300000, guid: 1842472ce70b64f4a84668f20b5abcc3, type: 3}
+    Bus: 0
+    Volume: 0.24
+    PitchVariation: 0
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 9
+    Clips:
+    - {fileID: 8300000, guid: 3abbd2546d15e6845934f45388464916, type: 3}
+    Bus: 0
+    Volume: 0.24
+    PitchVariation: 0
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 10
+    Clips:
+    - {fileID: 8300000, guid: efcdf3bfcf4399a41add28a0616f6385, type: 3}
+    Bus: 0
+    Volume: 0.24
+    PitchVariation: 0
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 11
+    Clips:
+    - {fileID: 8300000, guid: 8a8dfbd21d68e564cbc6344016d47c96, type: 3}
+    Bus: 3
+    Volume: 0.32
+    PitchVariation: 0
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 0.25
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 12
+    Clips:
+    - {fileID: 8300000, guid: b32cabcdc64526e4b9811b7e2dc7b046, type: 3}
+    Bus: 3
+    Volume: 0.18
+    PitchVariation: 0
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 0.25
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 13
+    Clips:
+    - {fileID: 8300000, guid: c5c98aeb59b309d48930eb014afbec37, type: 3}
+    Bus: 3
+    Volume: 0.24
+    PitchVariation: 0
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 14
+    Clips:
+    - {fileID: 8300000, guid: 0fe3a1d8d105bc24f961d58025b79952, type: 3}
+    Bus: 3
+    Volume: 0.24
+    PitchVariation: 0
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 15
+    Clips:
+    - {fileID: 8300000, guid: 84356255942ea9e4281303894a96398c, type: 3}
+    - {fileID: 8300000, guid: dfa43e62188eefa4b8f7beae821f520c, type: 3}
+    - {fileID: 8300000, guid: fa7c50fed7d8c26408ab7b68b32ac6ad, type: 3}
+    - {fileID: 8300000, guid: ba16b39c5e2108d4e8b223c75313a473, type: 3}
+    Bus: 1
+    Volume: 0.35
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 4
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 16
+    Clips:
+    - {fileID: 8300000, guid: 2f763a30c90108547b26e6af576935ed, type: 3}
+    - {fileID: 8300000, guid: 3e7a8cdf1d1d6164fac8752ea6277e5e, type: 3}
+    - {fileID: 8300000, guid: 591c3d56ef2d78541bb77e93d70148ee, type: 3}
+    - {fileID: 8300000, guid: 1ab9c8174188956468eea9d4b7235d0b, type: 3}
+    Bus: 1
+    Volume: 0.28
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 4
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 17
+    Clips:
+    - {fileID: 8300000, guid: 5d568947b33c9284a98673c010ebe3b9, type: 3}
+    - {fileID: 8300000, guid: a43227364aaedcb4c94f66aff699a85b, type: 3}
+    - {fileID: 8300000, guid: 1e4002fb451f9f5489efb956c63f5e9c, type: 3}
+    - {fileID: 8300000, guid: 04453817196357e47a974e68871386f2, type: 3}
+    Bus: 1
+    Volume: 0.25
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 4
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 18
+    Clips:
+    - {fileID: 8300000, guid: 84b7da9779621d44b83ebb1b7623dc60, type: 3}
+    Bus: 1
+    Volume: 0.45
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 4
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 19
+    Clips:
+    - {fileID: 8300000, guid: 31df26de0f036fb4893fce82f8b5848c, type: 3}
+    Bus: 1
+    Volume: 0.2
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 4
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 20
+    Clips:
+    - {fileID: 8300000, guid: df0fd8c3e9e632e4d84df82ea473043b, type: 3}
+    Bus: 1
+    Volume: 0.075
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 4
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 21
+    Clips:
+    - {fileID: 8300000, guid: ead7ff85f6067e146a5e37b90b37f252, type: 3}
+    Bus: 1
+    Volume: 0.13
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 4
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 22
+    Clips:
+    - {fileID: 8300000, guid: 947abdd857863f3448a589d407e53c65, type: 3}
+    Bus: 2
+    Volume: 0.09
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 1
+    MaxDistance: 5
+  - Cue: 23
+    Clips:
+    - {fileID: 8300000, guid: 57dc18cbcca52f84693de437eb286180, type: 3}
+    - {fileID: 8300000, guid: ac94dca6ef273f647a36f8fe2802853f, type: 3}
+    - {fileID: 8300000, guid: 18b163b5ab927ee49948411aded9b277, type: 3}
+    - {fileID: 8300000, guid: eaa7604f09daf794e96e3f5ac1d97855, type: 3}
+    Bus: 0
+    Volume: 0.16
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 24
+    Clips:
+    - {fileID: 8300000, guid: c272bb4558035194882d27fe5151c3dc, type: 3}
+    - {fileID: 8300000, guid: f4bbac30efb66a14dbb95266e46cf12a, type: 3}
+    - {fileID: 8300000, guid: 98d4445aa4316cb4d926442e79a86dd7, type: 3}
+    - {fileID: 8300000, guid: 622a776252d13ae46b22762cfd6eaf5d, type: 3}
+    Bus: 0
+    Volume: 0.16
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  - Cue: 25
+    Clips:
+    - {fileID: 8300000, guid: ff521f9cd195dff4ab5462fc97e30e06, type: 3}
+    - {fileID: 8300000, guid: fcece5d49e9f6bc4393aa3d84b6712fe, type: 3}
+    - {fileID: 8300000, guid: 35e4691487891a94b84d93783cf6dd74, type: 3}
+    - {fileID: 8300000, guid: 2db8c29814b0a844186967aa7cbc5f3b, type: 3}
+    Bus: 0
+    Volume: 0.5
+    PitchVariation: 0.035
+    Cooldown: 0.08
+    MaxVoices: 2
+    SpatialBlend: 1
+    MinDistance: 0.65
+    MaxDistance: 8
+  Interactions: {fileID: -5731248683677268294, guid: e886487af88c7214d8828b25f89205d3, type: 2}
+  Vehicle: {fileID: 1349585628423838917, guid: e886487af88c7214d8828b25f89205d3, type: 2}
+  Ambience: {fileID: 7785291407231158184, guid: e886487af88c7214d8828b25f89205d3, type: 2}
+  Rewards: {fileID: -6128827633660902468, guid: e886487af88c7214d8828b25f89205d3, type: 2}
+  OneShotVoices: 12
+  MinimumImpactSpeed: 0.12
+  FullImpactSpeed: 1.5
+  FullRollingSpeed: 1.2
+  RewardAmbienceMultiplier: 0.3

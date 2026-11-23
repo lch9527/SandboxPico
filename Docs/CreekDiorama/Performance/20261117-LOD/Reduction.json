@@ -1,0 +1,47 @@
+[
+  {
+    "level": 1,
+    "matched": 9,
+    "detailedFoliageTriangles": 379550,
+    "distantFoliageTriangles": 176126,
+    "saved": 203424,
+    "pollenBefore": 45276,
+    "pollenAfter": 6468
+  },
+  {
+    "level": 2,
+    "matched": 9,
+    "detailedFoliageTriangles": 381134,
+    "distantFoliageTriangles": 176862,
+    "saved": 204272,
+    "pollenBefore": 45276,
+    "pollenAfter": 6468
+  },
+  {
+    "level": 3,
+    "matched": 9,
+    "detailedFoliageTriangles": 392586,
+    "distantFoliageTriangles": 181142,
+    "saved": 211444,
+    "pollenBefore": 49896,
+    "pollenAfter": 7128
+  },
+  {
+    "level": 4,
+    "matched": 9,
+    "detailedFoliageTriangles": 381844,
+    "distantFoliageTriangles": 177294,
+    "saved": 204550,
+    "pollenBefore": 46200,
+    "pollenAfter": 6600
+  },
+  {
+    "level": 5,
+    "matched": 15,
+    "detailedFoliageTriangles": 49674,
+    "distantFoliageTriangles": 23384,
+    "saved": 26290,
+    "pollenBefore": 12936,
+    "pollenAfter": 1848
+  }
+]

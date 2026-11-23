@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5575888262794084275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138876030237731780}
+  m_Layer: 0
+  m_Name: Quarry_Winch_Editable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1138876030237731780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5575888262794084275}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5446322502580608005}
+  - {fileID: 301247012438464081}
+  - {fileID: 3426663771826157031}
+  - {fileID: 3994877705768911314}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &493238054634198637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1138876030237731780}
+    m_Modifications:
+    - target: {fileID: 3578388622381340607, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.025000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578388622381340607, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.050000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578388622381340607, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000000014901161
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578388622381340607, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578388622381340607, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578388622381340607, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578388622381340607, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578388622381340607, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578388622381340607, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578388622381340607, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7589206234344645332, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+      propertyPath: m_Name
+      value: Quarry_Winch__Winch
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+--- !u!4 &3994877705768911314 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3578388622381340607, guid: 0fb7b97b59bce7241a529aeb087eddae, type: 3}
+  m_PrefabInstance: {fileID: 493238054634198637}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5767339192554320364
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1138876030237731780}
+    m_Modifications:
+    - target: {fileID: 8327725854797579268, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327725854797579268, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327725854797579268, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327725854797579268, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327725854797579268, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327725854797579268, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327725854797579268, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327725854797579268, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327725854797579268, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327725854797579268, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8539799195369939244, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+      propertyPath: m_Name
+      value: Quarry_Winch__Deck
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+--- !u!4 &301247012438464081 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8327725854797579268, guid: fea91777288eaa442a9b7e7378f62a3b, type: 3}
+  m_PrefabInstance: {fileID: 5767339192554320364}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7993848492882105448
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1138876030237731780}
+    m_Modifications:
+    - target: {fileID: 4711379091161506191, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711379091161506191, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.06999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711379091161506191, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.17999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711379091161506191, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711379091161506191, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711379091161506191, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711379091161506191, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711379091161506191, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711379091161506191, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711379091161506191, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7152426295283272023, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+      propertyPath: m_Name
+      value: Quarry_Winch__Limestone_Blocks
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+--- !u!4 &3426663771826157031 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4711379091161506191, guid: 1bb26a1fa70eb7745828d4b2895ce47a, type: 3}
+  m_PrefabInstance: {fileID: 7993848492882105448}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8627832581267722837
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1138876030237731780}
+    m_Modifications:
+    - target: {fileID: 4334997700870770256, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.21999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334997700870770256, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.06999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334997700870770256, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.16000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334997700870770256, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334997700870770256, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334997700870770256, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334997700870770256, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334997700870770256, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334997700870770256, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334997700870770256, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5825136431216408000, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+      propertyPath: m_Name
+      value: Quarry_Winch__Crate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+--- !u!4 &5446322502580608005 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4334997700870770256, guid: 5fb4e783a7922c74393bcad3b625c25e, type: 3}
+  m_PrefabInstance: {fileID: 8627832581267722837}
+  m_PrefabAsset: {fileID: 0}

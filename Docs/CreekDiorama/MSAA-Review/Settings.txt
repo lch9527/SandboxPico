@@ -1,0 +1,60 @@
+main=210
+unity=6000.3.21f1
+gpu=NVIDIA GeForce RTX 4060 Ti
+api=Direct3D11
+platform=WindowsEditor
+source_pipeline=Mobile_RPAsset
+source_msaa=2
+render_scale=1
+depth=False
+opaque=False
+post_processing=false
+resolution=1500x1000
+view=authored player start looking at track bounds
+frame_timing_enabled=True
+Timing is Editor wall frame interval, NOT Quest FPS or GPU cost. Static simulation; includes Editor/test overhead.
+level=1 position=(0.039447, 4.682000, 8.171511) rotation=(0.017375, 0.979364, -0.176889, 0.096198) frozen_time=0.081992
+level=1 round=1 pipeline_samples=1 target_samples=1 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.081992
+level=1 round=2 pipeline_samples=4 target_samples=4 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.081992
+level=1 round=3 pipeline_samples=4 target_samples=4 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.081992
+level=1 round=4 pipeline_samples=1 target_samples=1 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.081992
+capture level=1 index=1 frame=673 msaa=1 target_samples=1 time=0.081992
+capture level=1 index=2 frame=673 msaa=4 target_samples=4 time=0.081992
+capture level=1 index=3 frame=673 msaa=4 target_samples=4 time=0.081992
+capture level=1 index=4 frame=673 msaa=1 target_samples=1 time=0.081992
+level=2 position=(0.039447, 4.682000, 8.171511) rotation=(0.014689, 0.983859, -0.150136, 0.096256) frozen_time=0.360858
+level=2 round=1 pipeline_samples=1 target_samples=1 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.360858
+level=2 round=2 pipeline_samples=4 target_samples=4 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.360858
+level=2 round=3 pipeline_samples=4 target_samples=4 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.360858
+level=2 round=4 pipeline_samples=1 target_samples=1 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.360858
+capture level=2 index=1 frame=1335 msaa=1 target_samples=1 time=0.360858
+capture level=2 index=2 frame=1335 msaa=4 target_samples=4 time=0.360858
+capture level=2 index=3 frame=1335 msaa=4 target_samples=4 time=0.360858
+capture level=2 index=4 frame=1335 msaa=1 target_samples=1 time=0.360858
+level=3 position=(0.039447, 4.682000, 8.171511) rotation=(0.011956, 0.986138, -0.143745, 0.082019) frozen_time=0.619515
+level=3 round=1 pipeline_samples=1 target_samples=1 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.619515
+level=3 round=2 pipeline_samples=4 target_samples=4 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.619515
+level=3 round=3 pipeline_samples=4 target_samples=4 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.619515
+level=3 round=4 pipeline_samples=1 target_samples=1 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.619515
+capture level=3 index=1 frame=1997 msaa=1 target_samples=1 time=0.619515
+capture level=3 index=2 frame=1997 msaa=4 target_samples=4 time=0.619515
+capture level=3 index=3 frame=1997 msaa=4 target_samples=4 time=0.619515
+capture level=3 index=4 frame=1997 msaa=1 target_samples=1 time=0.619515
+level=4 position=(0.039447, 4.682000, 8.171511) rotation=(0.008717, 0.989577, -0.126554, 0.068160) frozen_time=0.952848
+level=4 round=1 pipeline_samples=1 target_samples=1 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.952848
+level=4 round=2 pipeline_samples=4 target_samples=4 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.952848
+level=4 round=3 pipeline_samples=4 target_samples=4 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.952848
+level=4 round=4 pipeline_samples=1 target_samples=1 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=0.952848
+capture level=4 index=1 frame=2659 msaa=1 target_samples=1 time=0.952848
+capture level=4 index=2 frame=2659 msaa=4 target_samples=4 time=0.952848
+capture level=4 index=3 frame=2659 msaa=4 target_samples=4 time=0.952848
+capture level=4 index=4 frame=2659 msaa=1 target_samples=1 time=0.952848
+level=5 position=(1.720186, 3.115456, -0.557380) rotation=(0.155445, -0.239102, 0.038809, 0.957685) frozen_time=1.268157
+level=5 round=1 pipeline_samples=1 target_samples=1 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=1.268157
+level=5 round=2 pipeline_samples=4 target_samples=4 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=1.268157
+level=5 round=3 pipeline_samples=4 target_samples=4 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=1.268157
+level=5 round=4 pipeline_samples=1 target_samples=1 camera_msaa=True quality_samples=0 target_fps=-1 vsync=0 frozen_time=1.268157
+capture level=5 index=1 frame=3321 msaa=1 target_samples=1 time=1.268157
+capture level=5 index=2 frame=3321 msaa=4 target_samples=4 time=1.268157
+capture level=5 index=3 frame=3321 msaa=4 target_samples=4 time=1.268157
+capture level=5 index=4 frame=3321 msaa=1 target_samples=1 time=1.268157

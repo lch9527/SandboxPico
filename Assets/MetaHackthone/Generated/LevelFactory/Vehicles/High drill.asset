@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f612405505f7f4287670a49b246e7c, type: 3}
+  m_Name: High drill
+  m_EditorClassIdentifier: PhysicalAssembly.Runtime::PhysicalAssembly.SandboxTestCarAsset
+  Assembly:
+    formatVersion: 4
+    parts:
+    - id: 2436653f925247fb8463659551314721
+      kind: 15
+      gridVersion: 10
+      buildingCore: 1
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: body
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+    - id: a0df46681b8a4f12b867436fa5e0d213
+      kind: 9
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: body
+        position: {x: 0, y: 0, z: -0.06982437}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+    - id: 3fc89500b6484c82ae61798db99d282d
+      kind: 14
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: hub
+        position: {x: -0.028021622, y: -1.8189894e-12, z: 5.456968e-12}
+        rotation: {x: 1.4551915e-11, y: 1, z: 0, w: -0.000000043695763}
+      - id: tire
+        position: {x: -0.028021622, y: -7.2759576e-11, z: 3.092282e-11}
+        rotation: {x: -1.0913936e-11, y: 1.0000004, z: 0, w: -0.000000043706677}
+    - id: dc42e443519b4b45841d996272804301
+      kind: 14
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: hub
+        position: {x: 0.028021622, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+      - id: tire
+        position: {x: 0.028021622, y: -7.2759576e-11, z: 2.3874236e-11}
+        rotation: {x: 1.7763568e-15, y: -3.637979e-12, z: 0, w: 1.0000004}
+    - id: eaa6a90d869440c7a3c2ac258787687c
+      kind: 10
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: body
+        position: {x: 0, y: 0.052368276, z: 0}
+        rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    - id: 36baef3ccb4c4cbaacc9905036e99e8c
+      kind: 13
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: hub
+        position: {x: -0.028021622, y: 0, z: -0.10473655}
+        rotation: {x: 2.1827873e-11, y: 1, z: 0, w: -0.00000004377216}
+      - id: tire
+        position: {x: -0.028021622, y: -5.456968e-12, z: -0.10473655}
+        rotation: {x: 1.5916157e-11, y: 1, z: 0, w: -0.000000043693035}
+    - id: 1f00e7144bcc485ebb398ccdccb6b822
+      kind: 13
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: hub
+        position: {x: 0.028021622, y: 2.728484e-12, z: -0.10473655}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+      - id: tire
+        position: {x: 0.028021622, y: -5.456968e-12, z: -0.10473655}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+    - id: 21298e23170d44bf98ac0e8863338210
+      kind: 17
+      gridVersion: 10
+      buildingCore: 0
+      geometryScale: 0.4
+      designWheelRadius: 0
+      bodies:
+      - id: body
+        position: {x: 0, y: 0.06982437, z: 0.039641492}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+    connections:
+    - id: 11d530128ff44e16bcfdb21f640980aa
+      a:
+        partId: a0df46681b8a4f12b867436fa5e0d213
+        bodyId: body
+      b:
+        partId: 2436653f925247fb8463659551314721
+        bodyId: body
+      socketA: grid_center_z+_0_0
+      socketB: grid_center_z-_0_0
+      attachmentOrder: 1
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: 0, y: 0, z: 0.05236828}
+      anchorB: {x: 0, y: 0, z: -0.017456092}
+    - id: 4f55cf8329554f2d838fdd15eaa54057
+      a:
+        partId: 3fc89500b6484c82ae61798db99d282d
+        bodyId: hub
+      b:
+        partId: 2436653f925247fb8463659551314721
+        bodyId: body
+      socketA: mount
+      socketB: grid_center_x-_0_0
+      attachmentOrder: 2
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: -0.01056553, y: 0, z: 0}
+      anchorB: {x: -0.017456092, y: 0, z: 0}
+    - id: 8ffa7d4b4e094362a41efc28e4b79c37
+      a:
+        partId: 36baef3ccb4c4cbaacc9905036e99e8c
+        bodyId: hub
+      b:
+        partId: a0df46681b8a4f12b867436fa5e0d213
+        bodyId: body
+      socketA: mount
+      socketB: grid_center_x-_4_0
+      attachmentOrder: 3
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: -0.01056553, y: 0, z: 0}
+      anchorB: {x: -0.017456092, y: 0, z: -0.034912184}
+    - id: 36cbd511c64747bbaacaded5f9e53204
+      a:
+        partId: dc42e443519b4b45841d996272804301
+        bodyId: hub
+      b:
+        partId: 2436653f925247fb8463659551314721
+        bodyId: body
+      socketA: mount
+      socketB: grid_center_x+_0_0
+      attachmentOrder: 4
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: -0.01056553, y: 0, z: 0}
+      anchorB: {x: 0.017456092, y: 0, z: 0}
+    - id: e247aa29dbe24184b40a5eb03f776e78
+      a:
+        partId: 1f00e7144bcc485ebb398ccdccb6b822
+        bodyId: hub
+      b:
+        partId: a0df46681b8a4f12b867436fa5e0d213
+        bodyId: body
+      socketA: mount
+      socketB: grid_center_x+_0_0
+      attachmentOrder: 5
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: -0.01056553, y: 0, z: 0}
+      anchorB: {x: 0.017456092, y: 0, z: -0.034912184}
+    - id: d32a544b666a4e53a582131788b459f9
+      a:
+        partId: eaa6a90d869440c7a3c2ac258787687c
+        bodyId: body
+      b:
+        partId: 2436653f925247fb8463659551314721
+        bodyId: body
+      socketA: grid_center_z+_0_0
+      socketB: grid_center_y+_0_0
+      attachmentOrder: 6
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: 0, y: 0, z: 0.034912184}
+      anchorB: {x: 0, y: 0.017456092, z: 0}
+    - id: 2fe3216c99ae44f58ed14ac092577800
+      a:
+        partId: 21298e23170d44bf98ac0e8863338210
+        bodyId: body
+      b:
+        partId: eaa6a90d869440c7a3c2ac258787687c
+        bodyId: body
+      socketA: base
+      socketB: grid_center_y+_0_0
+      attachmentOrder: 7
+      hierarchyEdge: 1
+      parentIsA: 0
+      anchorA: {x: 0, y: 0, z: -0.022185398}
+      anchorB: {x: 0, y: 0.017456092, z: -0.017456092}

@@ -1,0 +1,6 @@
+{
+  "name": "PhysicalAssembly.EditTests",
+  "references": ["PhysicalAssembly.Runtime", "PhysicalAssembly.Editor", "CloudGarden.Integration", "Unity.Splines", "Unity.Mathematics", "Unity.RenderPipelines.Universal.Runtime"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

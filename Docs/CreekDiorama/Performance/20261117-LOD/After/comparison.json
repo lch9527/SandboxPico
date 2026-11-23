@@ -1,0 +1,176 @@
+{
+  "before": {
+    "settings": {
+      "eye_width": [
+        "2496"
+      ],
+      "eye_height": [
+        "2208"
+      ],
+      "eye_scale": [
+        "1.2545"
+      ],
+      "viewport": [
+        "1.0000"
+      ],
+      "display_hz": [
+        "90.0000"
+      ],
+      "asw_mode": [
+        "0"
+      ]
+    },
+    "samples": 168
+  },
+  "after": {
+    "settings": {
+      "eye_width": [
+        "2496"
+      ],
+      "eye_height": [
+        "2208"
+      ],
+      "eye_scale": [
+        "1.2545"
+      ],
+      "viewport": [
+        "1.0000"
+      ],
+      "display_hz": [
+        "90.0000"
+      ],
+      "asw_mode": [
+        "0"
+      ]
+    },
+    "samples": 218
+  },
+  "comparison": [
+    {
+      "level": 1,
+      "phase": "observe",
+      "fps_before": 74.0,
+      "fps_after": 88.73,
+      "fps_change_percent": 19.9,
+      "triangles_before": 612168,
+      "triangles_after": 420753,
+      "triangle_reduction_percent": 31.3,
+      "gpu_util_before": 0.949,
+      "gpu_util_after": 0.886,
+      "seconds_before": 53.0,
+      "seconds_after": 26.3
+    },
+    {
+      "level": 1,
+      "phase": "drive",
+      "fps_before": 66.9,
+      "fps_after": 88.43,
+      "fps_change_percent": 32.2,
+      "triangles_before": 589578,
+      "triangles_after": 378512,
+      "triangle_reduction_percent": 35.8,
+      "gpu_util_before": 0.923,
+      "gpu_util_after": 0.887,
+      "seconds_before": 4.2,
+      "seconds_after": 5.6
+    },
+    {
+      "level": 2,
+      "phase": "observe",
+      "fps_before": 65.89,
+      "fps_after": 84.35,
+      "fps_change_percent": 28.0,
+      "triangles_before": 645822,
+      "triangles_after": 435946,
+      "triangle_reduction_percent": 32.5,
+      "gpu_util_before": 0.968,
+      "gpu_util_after": 0.954,
+      "seconds_before": 73.5,
+      "seconds_after": 58.9
+    },
+    {
+      "level": 2,
+      "phase": "drive",
+      "fps_before": 64.59,
+      "fps_after": 88.35,
+      "fps_change_percent": 36.8,
+      "triangles_before": 606698,
+      "triangles_after": 390978,
+      "triangle_reduction_percent": 35.6,
+      "gpu_util_before": 0.909,
+      "gpu_util_after": 0.881,
+      "seconds_before": 4.6,
+      "seconds_after": 4.2
+    },
+    {
+      "level": 3,
+      "phase": "observe",
+      "fps_before": 66.1,
+      "fps_after": 86.27,
+      "fps_change_percent": 30.5,
+      "triangles_before": 677724,
+      "triangles_after": 458538,
+      "triangle_reduction_percent": 32.3,
+      "gpu_util_before": 0.971,
+      "gpu_util_after": 0.922,
+      "seconds_before": 7.4,
+      "seconds_after": 54.3
+    },
+    {
+      "level": 3,
+      "phase": "drive",
+      "fps_before": 60.54,
+      "fps_after": 79.86,
+      "fps_change_percent": 31.9,
+      "triangles_before": 665804,
+      "triangles_after": 447322,
+      "triangle_reduction_percent": 32.8,
+      "gpu_util_before": 0.947,
+      "gpu_util_after": 0.959,
+      "seconds_before": 5.5,
+      "seconds_after": 5.7
+    },
+    {
+      "level": 4,
+      "phase": "observe",
+      "fps_before": 65.97,
+      "fps_after": 82.46,
+      "fps_change_percent": 25.0,
+      "triangles_before": 668313,
+      "triangles_after": 453772,
+      "triangle_reduction_percent": 32.1,
+      "gpu_util_before": 0.974,
+      "gpu_util_after": 0.951,
+      "seconds_before": 8.1,
+      "seconds_after": 28.9
+    },
+    {
+      "level": 4,
+      "phase": "drive",
+      "fps_before": 59.86,
+      "fps_after": 82.61,
+      "fps_change_percent": 38.0,
+      "triangles_before": 653969,
+      "triangles_after": 442050,
+      "triangle_reduction_percent": 32.4,
+      "gpu_util_before": 0.979,
+      "gpu_util_after": 0.96,
+      "seconds_before": 3.5,
+      "seconds_after": 11.1
+    },
+    {
+      "level": 5,
+      "phase": "drive",
+      "fps_before": 77.54,
+      "fps_after": 80.0,
+      "fps_change_percent": 3.2,
+      "triangles_before": 219385,
+      "triangles_after": 235326,
+      "triangle_reduction_percent": -7.3,
+      "gpu_util_before": 0.769,
+      "gpu_util_after": 0.806,
+      "seconds_before": 5.4,
+      "seconds_after": 5.3
+    }
+  ]
+}

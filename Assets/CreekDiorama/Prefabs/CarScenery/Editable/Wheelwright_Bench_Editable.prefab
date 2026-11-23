@@ -1,0 +1,600 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3645814205184869201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6683998978627027271}
+  m_Layer: 0
+  m_Name: Wheelwright_Bench_Editable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6683998978627027271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3645814205184869201}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2046365795577806601}
+  - {fileID: 1228231644585492477}
+  - {fileID: 5206793651344126552}
+  - {fileID: 5909819113022477737}
+  - {fileID: 6157362265606803144}
+  - {fileID: 8603810556673194099}
+  - {fileID: 601104720121145586}
+  - {fileID: 3671922815063880487}
+  - {fileID: 3595788067799395719}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1675819197695005391
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6683998978627027271}
+    m_Modifications:
+    - target: {fileID: 2785329705901981512, guid: ad19ab6a211f640498d357374185a109, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785329705901981512, guid: ad19ab6a211f640498d357374185a109, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.054999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785329705901981512, guid: ad19ab6a211f640498d357374185a109, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785329705901981512, guid: ad19ab6a211f640498d357374185a109, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785329705901981512, guid: ad19ab6a211f640498d357374185a109, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785329705901981512, guid: ad19ab6a211f640498d357374185a109, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785329705901981512, guid: ad19ab6a211f640498d357374185a109, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785329705901981512, guid: ad19ab6a211f640498d357374185a109, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785329705901981512, guid: ad19ab6a211f640498d357374185a109, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785329705901981512, guid: ad19ab6a211f640498d357374185a109, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310449934483292963, guid: ad19ab6a211f640498d357374185a109, type: 3}
+      propertyPath: m_Name
+      value: Wheelwright_Bench__Workbench
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ad19ab6a211f640498d357374185a109, type: 3}
+--- !u!4 &3595788067799395719 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2785329705901981512, guid: ad19ab6a211f640498d357374185a109, type: 3}
+  m_PrefabInstance: {fileID: 1675819197695005391}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2588409038934781955
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6683998978627027271}
+    m_Modifications:
+    - target: {fileID: 6807965784558549850, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+      propertyPath: m_Name
+      value: Wheelwright_Bench__Wheel_Ground_Small
+      objectReference: {fileID: 0}
+    - target: {fileID: 8545782693571165899, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 8545782693571165899, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.048999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 8545782693571165899, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8545782693571165899, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8545782693571165899, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8545782693571165899, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8545782693571165899, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8545782693571165899, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8545782693571165899, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8545782693571165899, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+--- !u!4 &6157362265606803144 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8545782693571165899, guid: ca401c8596d5cd44f8e8b1472aa14131, type: 3}
+  m_PrefabInstance: {fileID: 2588409038934781955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4776835995667641612
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6683998978627027271}
+    m_Modifications:
+    - target: {fileID: 3517337705393740255, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517337705393740255, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517337705393740255, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.16999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517337705393740255, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517337705393740255, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517337705393740255, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517337705393740255, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517337705393740255, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517337705393740255, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517337705393740255, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507960842506347026, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+      propertyPath: m_Name
+      value: Wheelwright_Bench__Wheel_Rack
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+--- !u!4 &8603810556673194099 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3517337705393740255, guid: 876f1115b188a574d83eba86c6afb631, type: 3}
+  m_PrefabInstance: {fileID: 4776835995667641612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5167590422340837804
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6683998978627027271}
+    m_Modifications:
+    - target: {fileID: 1149762749894890484, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149762749894890484, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3399999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149762749894890484, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000000044703484
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149762749894890484, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149762749894890484, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149762749894890484, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149762749894890484, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149762749894890484, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149762749894890484, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149762749894890484, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117771651903162718, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+      propertyPath: m_Name
+      value: Wheelwright_Bench__Toolbox
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+--- !u!4 &5206793651344126552 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1149762749894890484, guid: 79b6eb6bda2bf0a4cb0c970e35da3f86, type: 3}
+  m_PrefabInstance: {fileID: 5167590422340837804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5612479953504820293
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6683998978627027271}
+    m_Modifications:
+    - target: {fileID: 5178397260353512724, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+      propertyPath: m_Name
+      value: Wheelwright_Bench__Deck
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874292678158148428, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874292678158148428, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874292678158148428, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000000014901161
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874292678158148428, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874292678158148428, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874292678158148428, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874292678158148428, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874292678158148428, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874292678158148428, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874292678158148428, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+--- !u!4 &2046365795577806601 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5874292678158148428, guid: d8a6756b7c8064a42bef5da49ff9c1cc, type: 3}
+  m_PrefabInstance: {fileID: 5612479953504820293}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5783569669206045147
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6683998978627027271}
+    m_Modifications:
+    - target: {fileID: 162332804107674738, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.23000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 162332804107674738, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.048999965
+      objectReference: {fileID: 0}
+    - target: {fileID: 162332804107674738, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 162332804107674738, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 162332804107674738, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 162332804107674738, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 162332804107674738, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 162332804107674738, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 162332804107674738, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 162332804107674738, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4038668054177579195, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+      propertyPath: m_Name
+      value: Wheelwright_Bench__Wheel_Ground_Large
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+--- !u!4 &5909819113022477737 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 162332804107674738, guid: 295fbaaadfbaff641a8978948857447c, type: 3}
+  m_PrefabInstance: {fileID: 5783569669206045147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6217561325927894125
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6683998978627027271}
+    m_Modifications:
+    - target: {fileID: 789713830871633606, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+      propertyPath: m_Name
+      value: Wheelwright_Bench__Spanner
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134870180228952976, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134870180228952976, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.33699995
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134870180228952976, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.009999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134870180228952976, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134870180228952976, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134870180228952976, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134870180228952976, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134870180228952976, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134870180228952976, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134870180228952976, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+--- !u!4 &1228231644585492477 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5134870180228952976, guid: 5cc3b39ce381e934c86592f7e43e32a3, type: 3}
+  m_PrefabInstance: {fileID: 6217561325927894125}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7289330241928944433
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6683998978627027271}
+    m_Modifications:
+    - target: {fileID: 6331407298076289046, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.13999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331407298076289046, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.43199992
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331407298076289046, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.13499992
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331407298076289046, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331407298076289046, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331407298076289046, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331407298076289046, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331407298076289046, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331407298076289046, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331407298076289046, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7291846589139724560, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+      propertyPath: m_Name
+      value: Wheelwright_Bench__Wheel_Rack_Small
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+--- !u!4 &3671922815063880487 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331407298076289046, guid: c036111e717dc2b41b4a21ce76cc78cf, type: 3}
+  m_PrefabInstance: {fileID: 7289330241928944433}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8813545721603445066
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6683998978627027271}
+    m_Modifications:
+    - target: {fileID: 6346926981457533225, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.120000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346926981457533225, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39399993
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346926981457533225, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.13499992
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346926981457533225, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346926981457533225, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346926981457533225, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346926981457533225, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346926981457533225, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346926981457533225, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346926981457533225, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758150585789322913, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+      propertyPath: m_Name
+      value: Wheelwright_Bench__Wheel_Rack_Large
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+--- !u!4 &601104720121145586 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6346926981457533225, guid: fe80100364461a14f9d0f00118fe5a8d, type: 3}
+  m_PrefabInstance: {fileID: 8813545721603445066}
+  m_PrefabAsset: {fileID: 0}

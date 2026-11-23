@@ -1,0 +1,15 @@
+manual-playtest-v2
+UTC=2026-11-18T01:43:04.5147910Z
+Unity=6000.3.21f1
+device=Oculus Quest 3
+GPU=Adreno (TM) 740
+API=Vulkan
+development=True
+OVR *_raw columns retain native API units; use Perfetto GPU/render-stage timings to corroborate bottlenecks. Main/Render Thread include waits, not just active CPU work. Empty fields mean unavailable. Warmup: first 8 seconds after ready. FPS denominator uses realtime; exclude unfocused/unworn samples and load/warmup from conclusions. Counters sampled each frame, CSV flushed each second.
+Main Thread: True
+Render Thread: False
+Draw Calls Count: True
+SetPass Calls Count: True
+Triangles Count: True
+GC Allocated In Frame: True
+Total Used Memory: True

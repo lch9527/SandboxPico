@@ -1,0 +1,33 @@
+Editing the five campaign levels
+
+Open Level1.unity through Level5.unity from MetaHackthone > Design Mode.
+Edit objects beneath Editable building layout: Building Area contains the
+workbench/building artwork; Sandbox Level contains the course and scenery.
+Move, rotate, resize, add, disable or delete the actual objects and colliders.
+Keep new scenery beneath this level hierarchy so it is included in the game.
+
+Save with Ctrl+S outside Play mode. Saving these five scenes automatically
+updates their campaign prefabs. The existing Save Level N to Game commands
+remain available. Check the Console if export reports a validation error;
+the scene can save even when the game snapshot fails validation.
+The headset needs a new APK build/install to receive subsequent saved edits.
+
+Authored Objects is enabled on all five SandboxFactoryLevel components.
+Track and puzzle generation, automatic start binding, boundary artwork
+fitting/recreation, and legacy scenery batching do not replace authored
+objects. Do not disable Authored Objects unless deliberately returning to
+procedural authoring: a subsequent rebuild can replace hand-edited geometry.
+
+The spline/sample components remain as gameplay route metadata. They do not
+generate or reshape roads in authored mode. For a major route change, keep
+the route guidance, start, goal and test bounds consistent with the physical
+road; moving artwork alone does not redesign gameplay guidance. Moving a
+whole track carries its saved samples with it.
+
+Gameplay still animates obstacles, spawns playable construction parts from
+their authored spawn markers, and runs effects. Edit spawn markers for part
+placement; their editor preview children are disposable previews. Edits made
+while Unity is in Play mode follow Unity's normal temporary-play rules.
+
+Conversion backups, including the open Level5 edits, are in
+Logs/ManualAuthoring. Regression tests are AuthoredCampaignTests.
